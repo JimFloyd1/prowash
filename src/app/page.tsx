@@ -1,11 +1,9 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-    <section className='py-24'>
-      <div className= 'container'>
-        <h1 className='text-3x1 font-bold'>Next TS Stater</h1>
-      </div>
-    </section>
-  );
+    <div>page</div>
+  )
 }
+
+export default page

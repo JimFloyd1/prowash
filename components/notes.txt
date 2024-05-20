@@ -1,0 +1,90 @@
+
+
+
+
+ {/* <main className="relative">
+    <section className='py-24'>
+      <div className= 'container mx-auto p-20 bg-black text-white font-semibold text-2xl'>
+      <header style = {{ backgroundColor: "grey", padding: "2rem" }}>
+          <p>Header Two layers 1: Email, phone, hours, location 2:(Get a Fast Quote, Services(Residential Services, Commercial Pressure Washing, Community Pressure Washing, Property Managers )) </p>
+          <nav>Nav</nav>
+      </header>
+    <section className='bg-gray-400 font-bold xl:sm:px-16 px-8 sm:py-24 py-12 wide:sm:pr-16 pr-8 sm:pb-24 pb-12'>Hero Page </section>
+    <section> <h1 className='text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12'>About Section </h1> </section>
+    <section> <h1 className='bg-gray-400 text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12-x py-10'> Our Services </h1> </section>
+    <section> <h1 className='text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12'> How it works | Simple free Quote Process</h1> </section>
+    <section> <h1 className='bg-gray-400 text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12'> Customer Reviews </h1> </section>
+    <section> <h1 className='text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12'> Instant Property Restoration at Your Fingertips! </h1> </section>
+    <section> <h1 className='bg-gray-400 text-3x1 font-bold sm:px-16 px-8 sm:py-24 py-12'> Frequently Asked Questions </h1> </section>
+      <footer style = {{ backgroundColor: "black", padding: "4rem" }}>
+          Footer (service areas, contact information, link to quote)
+      </footer>
+      </div>
+    </section>
+    </main> */}
+
+  );
+}
+
+
+
+import Image from "next/image";
+import { Hero, Navbar} from "../components";
+import Footer from "../components/Footer";
+
+
+export default function Home() {
+  return (
+    <main className="relative">
+    {/* <section className='py-24'> */}
+      <div className= 'container mx-auto p-20 bg-black text-white font-semibold text-2xl'>
+      <header style = {{ backgroundColor: "grey", padding: "2rem" }}>
+          <p>Header Two layers 1: Email, phone, hours, location
+            2:(Get a Fast Quote, Services(Residential Services, Commercial Pressure Washing,
+            Community Pressure Washing, Property Managers ))
+            <Navbar/>
+          </p>
+      </header>
+    <Hero/>
+    <footer style = {{ backgroundColor: "black", font:"white", padding: "4rem" }}>
+          Footer (service areas, contact information, link to quote) <Footer/>
+      </footer>
+    </div>
+    {/* </section> */}
+    </main>
+
+);
+}
+
+
+
+const Hero = () => {
+  return (
+    <div className = 'w-full h-[600px] flex'>
+      <div className = 'h-full md:max-w-[1024px] max-w-[600px] m-auto'>
+        <div className = 'object-cover'>
+hello
+        </div>
+      </div>
+
+
+    </div>
+  )
+}
+
+export default Hero
+
+
+
+
+
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <section className='bg-gray-400 font-bold xl:sm:px-16 px-8 sm:py-24 py-12 wide:sm:pr-16 pr-8 sm:pb-24 pb-12'>Nav Page </section>
+  )
+}
+
+export default Navbar
+
