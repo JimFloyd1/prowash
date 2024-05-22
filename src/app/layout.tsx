@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Navbar2 from "../components/Navbar2";
+// import _documents from "./_documents"
 
 
 
@@ -24,12 +25,12 @@ export default function RootLayout({
   children:React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="nord">
       <body>
-        <section className='py-20'>
+        <section className='py-10'>
           <div className='container'>
           <div>
-            <Navbar2 />
+            <Navbar/>
             {children}
             <Footer />
           </div>
