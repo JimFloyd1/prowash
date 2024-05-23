@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import image from 'next/image';
 import About from '../components/About';
 import Services from '../components/Services';
+import Contact from '../components/Contact';
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
   <Hero/>
   <About/>
   <Services/>
+  <Contact/>
   </div>
 
 

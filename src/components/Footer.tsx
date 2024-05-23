@@ -12,12 +12,6 @@ const Footer = () => {
         <a className="link link-hover">Reviews</a>
     </nav>
     <nav>
-        <h6 className="footer-title">Company</h6>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-    </nav>
-    <nav>
         <h6 className="footer-title">Services</h6>
         <a className="link link-hover">House Washing</a>
         <a className="link link-hover">RV Washing</a>
@@ -29,6 +23,12 @@ const Footer = () => {
         <a className="link link-hover">(843) 457-8440</a>
         <a className="link link-hover">ProWashMyrtleBeach@gmail.com</a>
         <a className="link link-hover">Monday to Sunday: 9:00 am - 6:00 pm</a>
+    </nav>
+    <nav>
+        <h6 className="footer-title">Company</h6>
+        <a className="link link-hover">About us</a>
+        <a className="link link-hover">Contact</a>
+        <a className="link link-hover">Jobs</a>
     </nav>
     </footer>
     <footer className="footer px-10 py-4 border-t text-base-content border-base-200 ">
