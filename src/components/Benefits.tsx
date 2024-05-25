@@ -10,11 +10,10 @@ import Image from 'next/image'
 
 const Benefits = () => {
     return (
-    <div>
-
+<div>
 <p className = "text-center font-medium text-2xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
 
-<div className="w-full h-full rounded-md my-4 p-2 flex justify-center">
+<div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
     <div className="card w-96 bg-base-100 p-4">
 <figure>
 <Image
@@ -77,7 +76,7 @@ const Benefits = () => {
 
 
 
-    <div className="w-full h-full rounded-md my-4 p-2 flex justify-center">
+    <div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
     <div className="card w-96 bg-base-100">
     <figure>
     <Image

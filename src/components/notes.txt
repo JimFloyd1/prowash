@@ -254,3 +254,35 @@ export default Navbar
     </div>
     </div>
     </div>
+
+
+
+
+
+TABLE COLUMNS AND ROWS
+    <div>
+
+<thead className="border-2">
+<tr className="border-2">
+    <th className="border-2">We are Experts</th>
+    <th className="border-2">Increase the value of your property</th>
+    <th className="border-2">Improve your curb appeal</th>
+</tr>
+</thead>
+
+<tbody>
+    <tr className="border-2">
+        <td className="border-2">When you hire ProWash Pressure Washing, we come equipped with the latest gadgets and tools to do the job
+    When you rent a power washer, you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</td>
+        <td className="border-2">According to the National Association of Realtors, washing a house can add $10,000 to $15,000 to the sales price of some properties
+    A good thorough professional pressure washing is an important aspect of attracting potential buyers and will help you sell faster​​ for more money</td>
+        <td className="border-2">Curb appeal matters a lot and it impacts the potential resale of your home and property
+    When you have a professional clean your home, driveway and walkways you will instantly improve your curb appeal resulting in higher property value</td>
+    </tr>
+
+<tr>
+    <td>Column1.1</td>
+    <td>Column2.1</td>
+    <td>Column3.1</td>
+</tr>
+</tbody>
