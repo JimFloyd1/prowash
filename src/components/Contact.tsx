@@ -14,7 +14,7 @@ const Contact = () => {
     </div>
     <div className="flex flex-col items-center justify-center">
         <dt className="mb-2 text-3xl font-extrabold">Number+</dt>
-        <dd className="text-center">Description</dd>
+        <dd className="text-center">We Guarantee 100% Satisfaction</dd>
     </div>
     <div className="flex flex-col items-center justify-center">
         <dt className="mb-2 text-3xl font-extrabold">Number+</dt>

@@ -5,6 +5,7 @@ import prowash3 from "@/public/prowash3.jpg"
 import prowash4 from "@/public/prowash4.jpg"
 import prowash7 from "@/public/prowash7.jpg"
 import Image from 'next/image';
+import icon from "@/public/Icon.jpg"
 
 const Services = () => {
 const [activeTab, setActiveTab] = useState('stats');
@@ -108,7 +109,8 @@ return (
     className="rounded-lg shadow-2xl"
 />
     <div className = "pl-5">
-    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Residential Pressure Washing</h1>
+    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Dirty Home? Don't Have Time?
+We Would Love To Help You!</h1>
     <p className="py-6">As a homeowner, it's important to keep the exterior of your home looking good and clean. This is not only important for curb appeal but it can protect your home from damage. A buildup of dirt, debris, mold & mildew can lead to a number of issues, including structural problems, if not dealt with right away.
 ​The hot and humid weather of Myrtle Beach, SC can make a big impact on the appearance of your home. In addition to the usual accumulation of dirt, dust and grime that builds up on home siding, you also have to deal with the unsightly growth of algae, mold and mildew.
 ​It also makes your home look nicer, which is important whether you are selling the house or plan to continue living there for some time
