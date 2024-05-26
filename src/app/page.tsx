@@ -1,17 +1,28 @@
-import React from 'react'
+"use client";
+
+import React from 'react';
+import Hero from "@/src/components/Hero";
+import Navbar from '../components/Navbar';
+import image from 'next/image';
+import About from '../components/About';
+import Services from '../components/Services';
+import Contact from '../components/Contact';
+import Benefits from '../components/Benefits';
+import Get_in_touch from '../components/Quote';
 
 const page = () => {
   return (
-      <div className="hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
+
+<div>
+  <Hero/>
+  <About/>
+  <Services/>
+  <Contact/>
+  <Benefits/>
+  <Get_in_touch/>
   </div>
-</div>
+
+
   )
 }
 
