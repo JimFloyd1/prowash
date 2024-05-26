@@ -264,7 +264,7 @@ We offer pressure washing solutions for a wide range of customers including:
     <div className={`p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'faq' ? '' : 'hidden'}`} id="property" role="tabpanel" aria-labelledby="faq-tab">
         {/* FAQ Content */}
         <h2 className="mb-5 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">Frequently asked questions</h2>
-        <div className="collapse collapse-plus bg-base-200 ring-4 ring-current">
+        <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" defaultChecked />
     <div className="collapse-title text-xl font-medium ">
     How Does Prowash of the GrandStrand Compare To Other Companies?
@@ -273,7 +273,7 @@ We offer pressure washing solutions for a wide range of customers including:
         <p>We have state of the art equipment and over 36 years of experience. We guarantee your satisfaction, 100%. Unlike some of the competition, every member of our team is fully insured and extensively trained.</p>
     </div>
     </div>
-    <div className="collapse collapse-plus bg-base-200 ring-4 ring-current">
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" />
     <div className="collapse-title text-xl font-medium">
         What is your Area of Service?
@@ -282,7 +282,7 @@ We offer pressure washing solutions for a wide range of customers including:
         <p>We service Myrtle Beach, North Myrtle Beach, Carolina Forest, Murrells Inlet, Socastee, Garden City, Litchfield, Conway, and Surfside.</p>
     </div>
     </div>
-    <div className="collapse collapse-plus bg-base-200 ring-4 ring-current">
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" />
     <div className="collapse-title text-xl font-medium">
     Are Your Cleaning Methods And Products Environmentally Safe?
@@ -290,7 +290,7 @@ We offer pressure washing solutions for a wide range of customers including:
     <div className="collapse-content">
     Yes, all of our pressure washing and cleaning methods are environmentally safe. We strictly avoid using harsh chemicals that could damage your property, harm your pets or family, or negatively impact the local environment. We ensure that the chemicals and techniques we employ are 100% safe and effective for maintaining your property. Our cleaning methods are only aggressive towards stains, grime, dirt, mold, algae, and similar contaminants. We are committed to thoroughly and responsibly cleaning your exterior surfaces.    </div>
     </div>
-    <div className="collapse collapse-plus bg-base-200 ring-4 ring-current">
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" />
     <div className="collapse-title text-xl font-medium">
     How Frequently Is Pressure Washing Needed?
@@ -299,7 +299,7 @@ We offer pressure washing solutions for a wide range of customers including:
         <p>The frequency of pressure washing and soft washing your projects depends on the surface material. Most surfaces require cleaning at least once a year, but the condition of the surface and organic growth buildup also play into how often your home will need to be power washed. If you’re consistent with routine cleaning, organic growth won’t stand a chance and can be maintained all year long!</p>
     </div>
     </div>
-    <div className="collapse collapse-plus bg-base-200 ring-4 ring-current">
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" />
     <div className="collapse-title text-xl font-medium">
     Why Shouldn't I Pressure Wash My Home On My Own?

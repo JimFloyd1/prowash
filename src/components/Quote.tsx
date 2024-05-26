@@ -110,7 +110,7 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
 <div className="card-body flex-wrap">
         <h2 className="text-2xl font-bold mb-2">ProWash of the GrandStrand has been in business since 1988 and is proud to offer the highest quality service.</h2>
         <p className="text-lg ">
-        We would love to hear from you. Contact us any time for a free estimate.
+        READY TO GET STARTED? We would love to hear from you. Contact us any time for a free estimate.
         </p>
         <p>
         All of our services are guaranteed to be carried out with the maximum amount of professionalism and quality.
