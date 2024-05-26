@@ -26,8 +26,8 @@ const Benefits = () => {
     <div className="card-body">
         <h2 className="card-title">We Are Experts</h2>
         <p>
-    When you hire ProWash Pressure Washing, we come equipped with the latest gadgets and tools to do the job
-    When you rent a power washer, you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</p>
+    When you hire ProWash Pressure Washing&#39 we come equipped with the latest gadgets and tools to do the job
+    When you rent a power washer&#39 you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</p>
         <div className="card-actions justify-end">
         <button className="btn btn-primary">Contact Us For Help</button>
         </div>
@@ -45,7 +45,7 @@ const Benefits = () => {
     <div className="card-body">
         <h2 className="card-title">Increase the value of your property</h2>
         <p>
-    According to the National Association of Realtors, washing a house can add $10,000 to $15,000 to the sales price of some properties
+    According to the National Association of Realtors&#39 washing a house can add $10&#39000 to $15&#39000 to the sales price of some properties
     A good thorough professional pressure washing is an important aspect of attracting potential buyers and will help you sell faster​​ for more money</p>
         <div className="card-actions justify-end">
         </div>
@@ -66,7 +66,7 @@ const Benefits = () => {
         <h2 className="card-title">Improve your curb appeal</h2>
         <p>
     Curb appeal matters a lot and it impacts the potential resale of your home and property
-    When you have a professional clean your home, driveway and walkways you will instantly improve your curb appeal resulting in higher property value</p>
+    When you have a professional clean your home&#39 driveway and walkways you will instantly improve your curb appeal resulting in higher property value</p>
         <div className="card-actions justify-end">
         </div>
     </div>
@@ -109,7 +109,7 @@ const Benefits = () => {
     <div className="card-body">
         <h2 className="card-title">​No Work for You</h2>
         <p>
-    While you're relaxing with beach trips or barbecues leave the hard work to us. We are pros. This is what we do
+    While you&#39re relaxing with beach trips or barbecues leave the hard work to us. We are pros. This is what we do
     Homeowners Insurance does not cover you if your property is intentionally destroyed
         </p>
         <div className="card-actions justify-end">
@@ -130,7 +130,7 @@ const Benefits = () => {
     <div className="card-body">
         <h2 className="card-title">Safe for the environment​</h2>
         <p>
-    Our cleaning solutions are safe for plants, animals, and children
+    Our cleaning solutions are safe for plants&#39 animals&#39 and children
     We are mindful of the planet and minimize any environmental impact when doing the job
     We believe in keeping the planet green
         </p>
