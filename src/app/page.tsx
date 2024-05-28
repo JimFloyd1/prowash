@@ -9,7 +9,6 @@ import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Benefits from '../components/Benefits';
 import Get_in_touch from '../components/Quote';
-import Form from '../components/Form'
 
 
 const page = () => {
@@ -22,7 +21,6 @@ const page = () => {
   <Contact/>
   <Benefits/>
   <Get_in_touch/>
-  <Form/>
   </div>
 
 

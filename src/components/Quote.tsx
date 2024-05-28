@@ -131,7 +131,12 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
     <input required type="text" className="grow" placeholder="Address, City, Zip" />
     </label>
 
+<div className="flex">
     <textarea placeholder="Message (Optional)" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+
+</div>
+
+
 
             <div className="mt-10 space-y-10">
                 <fieldset>
@@ -217,7 +222,14 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
                         Commercial Cleaning Services
                         </label>
                     </div>
+
+
+
                     </div>
+
+
+
+
                 </div>
                 <div className="gap-x-6 p-4">
             <button
@@ -226,13 +238,34 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
             >
             Submit Info to Prowash
             </button>
+
+
+
         </div>
+
+
+
                 </div>
+
+
+
+
                 </fieldset>
 
+
+
+
             </div>
+
+
+
+
             </div>
+
+
+
         </div>
+
 
         </div>
 

@@ -28,14 +28,16 @@ const Navbar = () => {
       </ul>
     </div>
     <figure>
+      <a className= "btn btn-ghost" href='/'>
 <Image
         src = "/logo1.png"
         width={100}
         height={100}
         alt='icon3'
 />
+</a>
 </figure>
-<a className="btn btn-ghost text-xl hidden sm:flex">ProWash of the GrandStrand</a>
+<a className="btn btn-ghost text-xl hidden sm:flex" href='/'>ProWash of the GrandStrand</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

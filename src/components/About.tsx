@@ -1,31 +1,32 @@
 import React from 'react'
-import prowash1 from "@/public/prowash1.jpg"
-import prowash2 from "@/public/prowash2.jpg"
-import prowash3 from "@/public/prowash3.jpg"
-import prowash4 from "@/public/prowash4.jpg"
-import prowash5 from "@/public/prowash5.jpg"
-import prowash6 from "@/public/prowash6.jpg"
 import Image from 'next/image'
 
 const About = () => {
   return (
     <div>
         <div className="hero min-h-8 ">
-  <div className="hero-content flex-col lg:flex-row-reverse py-16 text-center">
+
+
+  <div className="hero-content flex-col lg:flex-row-reverse py-16 text-center ">
     <Image
-    src = "/prowash3.jpg"
-    width={450}
-    height={450}
-    alt="Prowash doing its thang!"
+    src = "/prowash4.jpg"
+    width={600}
+    height={600}
+    alt="Prowash!"
     className="rounded-full object-cover"
     />
     <div>
-      <h1 className="text-2xl font-bold text p-8">Top Rated In the Myrtle Beach Area</h1>
+
+
+
+      <h1 className="text-2xl font-bold text p-4">100% SATISFACTION</h1>
       <h1 className="text-5xl font-bold text">About ProWash of the GrandStrand</h1>
-      <p className="py-9">ProWash Pressure Washing is a company that cleans Residential and Commercial property. We pressure wash with gentle pressure using soap and eco-friendly chemicals to rid mold, mildew, dirt, insects & unattractive stains that harm buildings. ​
-​We service Myrtle Beach, North Myrtle Beach, Carolina Forest, Murrells Inlet, Socastee, Garden City, Litchfield, Conway, and Surfside.​
-ProWash Pressure Washing is the local expert and has been pressure washing Myrtle Beach and surrounding areas since 1988. We have the experience, knowledge, and best methods to safely clean your property. Request a FREE Online Quote or Call (843) 457-8440 to schedule an appointment. </p>
-      <button className="btn">Get Started</button>
+      <p className="py-9"> Transform the look of your property with our pressure washing services. At ProWash of the GrandStrand, we specialize in both residential and commercial cleaning, ensuring every surface shines! Our expert team uses advanced equipment and eco-friendly solutions to tackle dirt, grime, mold, mildew, and stains, providing Myrtle Beach customers with exceptional results. Whether its your home, storefront, or office building, trust us to deliver a spotless finish that enhances curb appeal and leaves a lasting impression. Experience the difference with Myrtle Beach{"'"}s most reliable pressure washing professionals. </p>
+      <p> ​
+​We service Myrtle Beach, North Myrtle Beach, Carolina Forest, Murrell{"'"}s Inlet, Socastee, Garden City, Litchfield, Conway, and Surfside.​
+</p>
+
+      <button className="btn m-9">Get Started</button>
     </div>
   </div>
 </div>
