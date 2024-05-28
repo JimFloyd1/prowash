@@ -12,7 +12,7 @@ setActiveTab(tab);
 };
 
 return (
-<div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="w-full bg-white border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
     <div className="sm:hidden">
     <label htmlFor="tabs" className="sr-only">Select tab</label>
     <select
@@ -95,15 +95,15 @@ return (
     <div className= {`p-4 rounded-lg md:p-8 ${activeTab === 'residential' ? '' : 'hidden'}`} id="residential" role="tabpanel" aria-labelledby="residential-tab">
         {/* Residential Content */}
         <ul role="list" className="space-y-4">
-        <div className="hero min-h-screen bg-base-200 shadow-xl rounded-xl">
+        <div className="hero min-h-screen bg-base-200 shadow-xl rounded-3xl">
     <div className="hero-content flex-col lg:flex-row ">
 
     <Image
-    src="/prowash4.jpg"
+    src="/prowash6.jpg"
     width={500}
     height={500}
     alt="Hero"
-    className="rounded-lg shadow-2xl"
+    className="rounded-full shadow-2xl"
 />
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Dirty Home? Short On Time?
@@ -156,7 +156,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
     width={500}
     height={500}
     alt="Hero"
-    className="rounded-lg shadow-2xl"
+    className="rounded-full shadow-2xl"
 />
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Commercial Pressure Washing</h1>
@@ -220,7 +220,7 @@ We offer pressure washing solutions for a wide range of customers including:
     width={500}
     height={500}
     alt="Hero"
-    className="rounded-lg shadow-2xl"
+    className="rounded-3xl shadow-2xl"
 />
 
     <div className = "pl-5">

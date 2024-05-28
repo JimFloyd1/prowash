@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+    <div className= "">
         <dl className="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto sm:grid-cols-3 xl:grid-cols-6 sm:p-8">
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center ">
         <dt className="mb-2 text-3xl font-extrabold">36</dt>
         <dd className="text-center">Years in Business</dd>
     </div>
@@ -29,6 +29,7 @@ const Contact = () => {
         <dd className="text-center">Faster Cleaning with Advanced Equipment</dd>
     </div>
         </dl>
+
     </div>
   )
 }

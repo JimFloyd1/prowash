@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const Benefits = () => {
     return (
-<div>
-<p className = "text-center font-medium text-2xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
+<div className= "bg-base-200 rounded-full object-cover">
+<p className = "pt-9 text-center font-medium text-4xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
 
-<div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
-    <div className="card w-96 bg-base-100 p-4">
+<div className="w-full h-full rounded-md my-4 p-8 flex flex-wrap justify-center">
+    <div className="card w-96 bg-base-100 p-4 m-2">
 <figure>
 <Image
         src = "/icon6.png"
@@ -27,7 +27,7 @@ const Benefits = () => {
         </div>
     </div>
     </div>
-    <div className="card w-96 bg-base-100 p-4">
+    <div className="card w-96 bg-base-100 p-4 m-2">
     <figure>
     <Image
         src = "/icon2.png"
@@ -47,7 +47,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4 ">
+    <div className="card w-96 bg-base-100 p-4 m-2">
     <figure>
     <Image
         src = "/icon1.png"
@@ -71,7 +71,7 @@ const Benefits = () => {
 
 
     <div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
-    <div className="card w-96 bg-base-100">
+    <div className="card w-96 bg-base-100 m-2">
     <figure>
     <Image
         src = "/icon3.png"
@@ -91,7 +91,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4">
+    <div className="card w-96 bg-base-100 p-4 m-2">
     <figure>
     <Image
         src = "/icon4.png"
@@ -112,7 +112,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4">
+    <div className="card w-96 bg-base-100 p-4 m-2">
     <figure>
     <Image
         src = "/icon5.png"

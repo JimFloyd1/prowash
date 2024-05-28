@@ -25,7 +25,7 @@ export default function RootLayout({
   children:React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="dracula">
+    <html lang="en" data-theme="cupcake">
       <body>
         <section className='py-10'>
           <div className='container'>

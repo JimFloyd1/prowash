@@ -1,13 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import prowash6 from './prowash6.jpg'
-import prowash1 from './prowash1.jpg'
+
 
 const Hero = () => {
   return (
-<div className="hero min-h-screen"
+<div className="hero min-h-screen rounded-3xl object-cover"
     style={{backgroundImage: 'url(./prowash1.jpg)'}}>
-  <div className="hero-overlay bg-opacity-40"></div>
+  <div className="hero-overlay bg-opacity-40 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="pb-20">
       <h1 className="mb-5 text-5xl font-bold">#1 RATED </h1>

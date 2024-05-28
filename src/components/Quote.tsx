@@ -7,31 +7,6 @@ const Quote = () => {
     <div>
   <form>
 <div>
-<div className=" p-20 bg-base-200">
-  <div className="hero-content flex-col ">
-    <div>
-      <h1 className="text-5xl font-bold">Property Managers & Community Pressure Washing</h1>
-      <p className="py-8">ProWash Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
-We are Proud and Committed to Offering Pressure Washing Services throughout our Community
-We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirement Communities, Pool Deck Pressure Washing, Parks & Recreational Facility Cleaning, Municipal & Government Buildings, HOA Common Areas and More!</p>
-      <p>​If You Have Any Questions or Would Like a FREE Quote Click Here or Call 843-457-8440
-​We Pride Ourselves on Being the Very Best.</p>
-      <button className="btn btn-primary">Learn More</button>
-    </div>
-    <Image
-    src = '/prowash7.jpg'
-    height = {800}
-    width = {800}
-    alt = 'prowash7'
-    className="max-w-sm rounded-lg shadow-2xl"
-    />
-  </div>
-</div>
-
-
-
-
-
 
 <div>
 
@@ -104,10 +79,10 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
 
 
 
-    <div className=" justify-center bg-base-200">
-    <div className="p-20 ">
-    <div className="space-y-12 ">
-    <div className="border-b pb-2 ">
+    <div className="w-full ">
+    <div className="px-60">
+    <div className="space-y-9 ">
+    <div className="pb-2">
     <h2 className="text-2xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
     </div>
 
@@ -222,15 +197,10 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
                         Commercial Cleaning Services
                         </label>
                     </div>
-
-
-
                     </div>
 
-
-
-
                 </div>
+
                 <div className="gap-x-6 p-4">
             <button
             type="submit"
@@ -238,47 +208,16 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
             >
             Submit Info to Prowash
             </button>
-
-
-
-        </div>
-
-
-
                 </div>
-
-
-
-
+                </div>
                 </fieldset>
-
-
-
-
             </div>
-
-
-
-
             </div>
-
-
-
         </div>
-
-
         </div>
-
-
-
-
-
     </form>
     </div>
-
-
-
-  );
+    );
 };
 
 export default Quote

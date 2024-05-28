@@ -860,3 +860,26 @@ export async function submitFormAction(
 
 export default actions
 
+
+Commercial Section internal
+
+<div className=" p-20 bg-base-200">
+  <div className="hero-content flex-col ">
+    <div>
+      <h1 className="text-5xl font-bold">Property Managers & Community Pressure Washing</h1>
+      <p className="py-8">ProWash Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
+We are Proud and Committed to Offering Pressure Washing Services throughout our Community
+We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirement Communities, Pool Deck Pressure Washing, Parks & Recreational Facility Cleaning, Municipal & Government Buildings, HOA Common Areas and More!</p>
+      <p>​If You Have Any Questions or Would Like a FREE Quote Click Here or Call 843-457-8440
+​We Pride Ourselves on Being the Very Best.</p>
+      <button className="btn btn-primary">Learn More</button>
+    </div>
+    <Image
+    src = '/prowash7.jpg'
+    height = {800}
+    width = {800}
+    alt = 'prowash7'
+    className="max-w-sm rounded-lg shadow-2xl"
+    />
+  </div>
+</div>
