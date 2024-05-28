@@ -1,18 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
-import prowash6 from './prowash6.jpg'
-import prowash1 from './prowash1.jpg'
+
 
 const Hero = () => {
   return (
-<div className="hero min-h-screen"
+<div className="hero min-h-screen rounded-3xl object-cover"
     style={{backgroundImage: 'url(./prowash1.jpg)'}}>
-  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-overlay bg-opacity-40 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Myrtle Beachs Premier Pressure Washing: Residential & Commercial Excellence!</h1>
-      <p className="mb-5">Transform the look of your property with our top-notch pressure washing services. At ProWash of the GrandStrand, we specialize in both residential and commercial cleaning, ensuring every surface shines with a like-new luster. Our expert team uses advanced equipment to tackle dirt, grime, and stains, providing Myrtle Beach with unparalleled results. Whether its your home, storefront, or office building, trust us to deliver a spotless finish that enhances curb appeal and leaves a lasting impression. Experience the difference with Myrtle Beachs most reliable pressure washing professionals.</p>
+    <div className="pb-20">
+      <h1 className="mb-5 text-5xl font-bold">#1 RATED </h1>
+      <h2 className="mb-5 text-5xl font-bold">PRESSURE WASHING SERVICES IN MYRTLE BEACH</h2>
+      <p className="mb-5 text-xl">High-Quality Services, Fair Prices, Always on Time! </p>
+      <div className= "p-5">
       <button className="btn btn-primary">Get a Fast Quote</button>
+      <button className="btn btn-primary ml-3">Call Us For Help</button>
+      </div>
     </div>
   </div>
 </div>

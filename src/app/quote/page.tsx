@@ -1,93 +1,14 @@
 import React from 'react'
-import Image from 'next/image';
-
-const Quote = () => {
-  return (
-
-    <div>
-  <form>
-<div>
-
-<div>
 
 
-<div className="flex flex-col w-full">
+const Form_page = () => {
+    return (
 
-
-  <div className="divider divider-primary"></div>
-  <div className="divider divider-secondary"></div>
-  <div className="divider divider-accent"></div>
-
-<p className="text-center text-4xl font-bold p-5">Our Simple, Quote Process</p>
-<p className="text-center text-2xl font-bold p-5">Follow These Steps to Get Started</p>
-</div>
-
-
-
-
-<div className="w-full h-full rounded-md flex flex-wrap justify-center">
-    <div className="card w-96 bg-base-100 p-4">
-<figure>
-<Image
-        src = "/quote3.png"
-        width={100}
-        height={100}
-        alt='icon3'
-/>
-</figure>
-    <div className="card-body">
-        <h2 className="card-title">1. REQUEST A QUOTE</h2>
-        <p>
-        We understand that youre busy; thats why we created a custom quote form to make the process seamless. Once you submit the form, it will be sent to us right away, and our team will respond within a few hours.</p>
-    </div>
-    </div>
-    <div className="card w-96 bg-base-100 p-4">
-    <figure>
-    <Image
-        src = "/quote7.png"
-        width={100}
-        height={100}
-        alt='icon3'
-/>
-    </figure>
-    <div className="card-body">
-        <h2 className="card-title">2. SET A SCHEDULE</h2>
-        <p>
-        Setting a routine cleaning schedule will ensure that your property is always clean throughout the whole year. The process is easy; just request a quick quote and let us know when you want our team to come to clean your property. We strive to make the booking process as convenient for you as possible!
-        </p>
-        <div className="card-actions justify-end">
-        </div>
-    </div>
-    </div>
-
-
-    <div className="card w-96 bg-base-100 p-4 ">
-    <figure>
-    <Image
-        src = "/quote8.png"
-        width={100}
-        height={100}
-        alt='icon3'
-/>
-    </figure>
-    <div className="card-body">
-        <h2 className="card-title"> 3. SIT BACK & RELAX</h2>
-        <p>
-        All that’s left to do is sit back and relax as you watch our cleaning experts transform your property. When you see the new shine, you’ll wonder how you went so long without our pressure washing service!        </p>
-        <div className="card-actions justify-end">
-        </div>
-    </div>
-    </div>
-    </div>
-  </div>
-</div>
-
-
-
-    <div className="w-full ">
-    <div className="px-60">
-    <div className="space-y-9 ">
-    <div className="pb-2">
+    <form>
+    <div className=" p-20 bg-base-200">
+    <div className="hero-content flex-col ">
+    <div className="space-y-12">
+    <div className="border-b pb-2">
     <h2 className="text-2xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
     </div>
 
@@ -108,15 +29,8 @@ const Quote = () => {
 
     <label className="input input-bordered flex items-center gap-2">
     Address
-    <input required type="text" className="grow" placeholder="Address, City, Zip" />
+    <input required type="text" className="grow" placeholder="Street Address, City, Zip" />
     </label>
-
-<div className="flex">
-    <textarea placeholder="Message (Optional)" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
-
-</div>
-
-
 
             <div className="mt-10 space-y-10">
                 <fieldset>
@@ -203,26 +117,27 @@ const Quote = () => {
                         </label>
                     </div>
                     </div>
-
                 </div>
-
-                <div className="gap-x-6 p-4">
+                <div className="gap-x-6">
             <button
             type="submit"
-            className="rounded-md bg-indigo-600 px-3 py-2text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
             Submit Info to Prowash
             </button>
-                </div>
+        </div>
                 </div>
                 </fieldset>
-            </div>
-            </div>
-        </div>
-        </div>
-    </form>
-    </div>
-    );
-};
 
-export default Quote
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        </form>
+
+    )
+}
+
+export default Form_page
