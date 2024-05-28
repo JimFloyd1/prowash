@@ -268,45 +268,71 @@ We offer pressure washing solutions for a wide range of customers including:
     How Does Prowash of the GrandStrand Compare To Other Companies?
     </div>
     <div className="collapse-content">
-        <p>We have state of the art equipment and over 36 years of experience. We guarantee your satisfaction{"'"} 100%. Unlike some of the competition{"'"} every member of our team is fully insured and extensively trained.</p>
+        <li>
+        High Quality Services - With over 36 years in business we have the experience, knowledge, and best methods to safely clean your property.
+        </li>
+        <li>
+        Fair Prices - Our goal is not to drain our clients pocket. We offer very fair prices that are priced competitively and deliver the best quality.
+        </li>
+        <li>
+        Always On Time - We show up on time and are always professional.
+        </li>
+<p className = "mt-5">ProWash Pressure Washing has been providing pressure washing services since 1988. Our long-term experience helps us understand the unique needs of our customers. </p>
     </div>
     </div>
+
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
+    <input type="radio" name="my-accordion-3" />
+    <div className="collapse-title text-xl font-medium">
+    Are Your Cleaning Methods And Products Safe?
+    </div>
+    <div className="collapse-content">
+    All our pressure washing and cleaning methods are safe for you and your home. We avoid harsh chemicals that could harm your property, pets, family, or the environment. Instead, we use gentle yet effective products to keep your property in top shape. Our cleaning techniques are tough on stains, grime, dirt, mold, algae, and similar issues, ensuring your exterior surfaces look their best. We are dedicated to providing a thorough and responsible clean every time.
+    </div>
+    </div>
+
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
+    <input type="radio" name="my-accordion-3" />
+    <div className="collapse-title text-xl font-medium">
+    Why Shouldn{"'"}t I Pressure Wash My Own House?
+    </div>
+    <div className="collapse-content">
+        <p>
+        You can give it a go, but we wouldn't recommend it. While it might seem straightforward, many of our clients have found that it takes more knowledge and skill to get great results than they initially thought. Plus, it can be quite time-consuming. Our ProWash Of The GrandStrand team will come to your home with specialized equipment and extensive expertise in safe procedures to ensure the best possible outcome.
+        </p>
+    </div>
+    </div>
+
+    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
+    <input type="radio" name="my-accordion-3" />
+    <div className="collapse-title text-xl font-medium">
+    How Often Should I Pressure Wash My Home?
+    </div>
+    <div className="collapse-content">
+        <p>The frequency of pressure washing depends on the surface material. Generally speaking, most surfaces need cleaning at least once a year. However, the condition of the surface and any organic growth buildup can affect how often you'll need to power wash. By keeping up with regular cleaning, you can easily manage and prevent organic growth all year round!</p>
+    </div>
+    </div>
+
     <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
     <input type="radio" name="my-accordion-3" />
     <div className="collapse-title text-xl font-medium">
         What is your Area of Service?
     </div>
     <div className="collapse-content">
-        <p>We service Myrtle Beach{"'"} North Myrtle Beach{"'"} Carolina Forest{"'"} Murrells Inlet{"'"} Socastee{"'"} Garden City{"'"} Litchfield{"'"} Conway{"'"} and Surfside.</p>
-    </div>
-    </div>
-    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
-    <input type="radio" name="my-accordion-3" />
-    <div className="collapse-title text-xl font-medium">
-    Are Your Cleaning Methods And Products Environmentally Safe?
-    </div>
-    <div className="collapse-content">
-    Yes{"'"} all of our pressure washing and cleaning methods are environmentally safe. We strictly avoid using harsh chemicals that could damage your property{"'"} harm your pets or family{"'"} or negatively impact the local environment. We ensure that the chemicals and techniques we employ are 100% safe and effective for maintaining your property. Our cleaning methods are only aggressive towards stains{"'"} grime{"'"} dirt{"'"} mold{"'"} algae{"'"} and similar contaminants. We are committed to thoroughly and responsibly cleaning your exterior surfaces.    </div>
-    </div>
-    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
-    <input type="radio" name="my-accordion-3" />
-    <div className="collapse-title text-xl font-medium">
-    How Frequently Is Pressure Washing Needed?
-    </div>
-    <div className="collapse-content">
-        <p>The frequency of pressure washing and soft washing your projects depends on the surface material. Most surfaces require cleaning at least once a year{"'"} but the condition of the surface and organic growth buildup also play into how often your home will need to be power washed. If you’re consistent with routine cleaning{"'"} organic growth won’t stand a chance and can be maintained all year long!</p>
-    </div>
-    </div>
-    <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">
-    <input type="radio" name="my-accordion-3" />
-    <div className="collapse-title text-xl font-medium">
-    Why Shouldn{"'"}t I Pressure Wash My Home On My Own?
-    </div>
-    <div className="collapse-content">
-        <p>You can try{"'"} but we wouldn’t recommend it. Though it seems simple{"'"} many clients previously underestimated the knowledge and skill it takes to achieve a quality results. It also can take a lot of time. Our crew at ProWash Of The GrandStrand will come to your home with specialized equipment and extensive knowledge of safe procedures to ensure the best results possible.</p>
-    </div>
-    </div>
+        <p className= "mb-3">We Service:</p>
 
+        <li> Myrtle Beach</li>
+        <li> North Myrtle Beach</li>
+        <li> Carolina Forest</li>
+        <li> Murrell{"'"}s Inlet</li>
+        <li> Socastee</li>
+        <li> Garden City</li>
+        <li> Litchfield</li>
+        <li> Conway</li>
+        <li> Surfside</li>
+
+    </div>
+    </div>
 
     </div>
     </div>
