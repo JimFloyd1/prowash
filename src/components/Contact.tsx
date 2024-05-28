@@ -21,12 +21,12 @@ const Contact = () => {
         <dd className="text-center">Hours Worked</dd>
     </div>
     <div className="flex flex-col items-center justify-center">
-        <dt className="mb-2 text-3xl font-extrabold">Number+</dt>
-        <dd className="text-center">Description</dd>
+        <dt className="mb-2 text-3xl font-extrabold">100%</dt>
+        <dd className="text-center">Customer Satisfaction Rate</dd>
     </div>
     <div className="flex flex-col items-center justify-center">
-        <dt className="mb-2 text-3xl font-extrabold">Number+</dt>
-        <dd className="text-center">Description</dd>
+        <dt className="mb-2 text-3xl font-extrabold">50%</dt>
+        <dd className="text-center">Faster Cleaning with Advanced Equipment</dd>
     </div>
         </dl>
     </div>
