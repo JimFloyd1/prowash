@@ -1,16 +1,15 @@
 import React from 'react'
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+
 
 const Form_page = () => {
     return (
-
 
     <form>
     <div className=" p-20 bg-base-200">
     <div className="hero-content flex-col ">
     <div className="space-y-12">
-    <div className="border-b pb-12">
-    <h2 className="text-base font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
+    <div className="border-b pb-2">
+    <h2 className="text-2xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
     </div>
 
     <label className="input input-bordered flex items-center gap-2">
