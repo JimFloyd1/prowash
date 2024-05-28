@@ -13,7 +13,7 @@ const About = () => {
     width={600}
     height={600}
     alt="Prowash!"
-    className="rounded-full object-cover ring-8 ring-blue-400"
+    className="rounded-full object-cover ring-8 ring-blue-400 "
     />
     <div>
 

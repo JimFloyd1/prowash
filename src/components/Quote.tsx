@@ -38,7 +38,7 @@ const Quote = () => {
     <div className="card-body">
         <h2 className="card-title">1. REQUEST A QUOTE</h2>
         <p>
-        We know you're busy, so we've made things simple with our custom quote form. Just fill it out and send it our way, and we'll get back to you within a few hours!</p>
+        We know you{"'"}re busy, so we{"'"}ve made things simple with our custom quote form. Just fill it out and send it our way, and we{"'"}ll get back to you within a few hours!</p>
     </div>
     </div>
     <div className="card w-96 bg-base-100 p-4">
@@ -53,7 +53,7 @@ const Quote = () => {
     <div className="card-body">
         <h2 className="card-title">2. SET A SCHEDULE</h2>
         <p>
-        Keep your property sparkling clean all year round with our easy routine cleaning schedule. Just ask for a quick quote, let us know when you'd like us to come by, and we'll handle the rest. We want to make booking with us as easy as possible for you!
+        Keep your property sparkling clean all year round with our easy routine cleaning schedule. Just ask for a quick quote, let us know when you{"'"}d like us to come by, and we{"'"}ll handle the rest. We want to make booking with us as easy as possible for you!
         </p>
         <div className="card-actions justify-end">
         </div>
