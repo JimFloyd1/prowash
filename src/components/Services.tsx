@@ -95,7 +95,7 @@ return (
     <div className= {`p-4 rounded-lg md:p-8 ${activeTab === 'residential' ? '' : 'hidden'}`} id="residential" role="tabpanel" aria-labelledby="residential-tab">
         {/* Residential Content */}
         <ul role="list" className="space-y-4">
-        <div className="hero min-h-screen bg-base-200 shadow-xl rounded-3xl">
+        <div className="hero min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 shadow-xl rounded-3xl ">
     <div className="hero-content flex-col lg:flex-row ">
 
     <Image
@@ -106,36 +106,36 @@ return (
     className="rounded-full shadow-2xl"
 />
     <div className = "pl-5">
-    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Dirty Home? Short On Time?
+    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center text-base-200">Dirty Home? Short On Time?
 Let Us Help You!</h1>
-    <p className="py-6">As a homeowner{"'"}s it{"'"}s important to keep the exterior of your home looking good and clean. This is not only important for curb appeal but it can protect your home from damage. A buildup of dirt{"'"} debris{"'"} mold & mildew can lead to a number of issues{"'"} including structural problems{"'"} if not dealt with right away.
+    <p className="py-6 text-base-200">As a homeowner{"'"}s it{"'"}s important to keep the exterior of your home looking good and clean. This is not only important for curb appeal but it can protect your home from damage. A buildup of dirt{"'"} debris{"'"} mold & mildew can lead to a number of issues{"'"} including structural problems{"'"} if not dealt with right away.
 ​The hot and humid weather of Myrtle Beach{"'"} SC can make a big impact on the appearance of your home. In addition to the usual accumulation of dirt{"'"} dust and grime that builds up on home siding{"'"} you also have to deal with the unsightly growth of algae{"'"} mold and mildew.
 ​It also makes your home look nicer{"'"} which is important whether you are selling the house or plan to continue living there for some time
 Our Gentle Wash House Washing is ideal for all types of home exteriors in the Myrtle Beach & Surrounding Areas.</p>
 
 <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">House Exterior, All Sides Pressure Washed with Gentle Pressure, Safe & Eco-Friendly Soap & Cleaning Agents, Not Harmful to Plants, Flowers, or Children</span>
+            <span className="leading-tight text-base-200">House Exterior, All Sides Pressure Washed with Gentle Pressure, Safe & Eco-Friendly Soap & Cleaning Agents, Not Harmful to Plants, Flowers, or Children</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">All House Trim, Window{"'"}s, Soffit{"'"}s, Door{"'"}s, Gutter{"'"}s, Garage Door{"'"}s, will be Pressure Washed</span>
+            <span className="leading-tight text-base-200">All House Trim, Window{"'"}s, Soffit{"'"}s, Door{"'"}s, Gutter{"'"}s, Garage Door{"'"}s, will be Pressure Washed</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">All Porche{"'"}s, Driveway{"'"}s, Walkway{"'"}s, and Entranceway Areas Will be Pressure Washed​</span>
+            <span className="leading-tight text-base-200">All Porche{"'"}s, Driveway{"'"}s, Walkway{"'"}s, and Entranceway Areas Will be Pressure Washed​</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Patio & Deck Pressure Washing, Brick & Concrete Cleaning, Pavers & Tile Cleaning</span>
+            <span className="leading-tight text-base-200">Patio & Deck Pressure Washing, Brick & Concrete Cleaning, Pavers & Tile Cleaning</span>
         </li>
         <button className="btn btn-primary">Learn More</button>
     </div>
@@ -145,7 +145,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
 </div>
 
 
-    <div className={`p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'commercial' ? '' : 'hidden'}`} id="commercial" role="tabpanel" aria-labelledby="commercial-tab">
+    <div className={`p-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'commercial' ? '' : 'hidden'}`} id="commercial" role="tabpanel" aria-labelledby="commercial-tab">
         {/* Commercial Pressure Washing Content */}
         <ul role="list" className="space-y-4">
         <div className="hero min-h-screen bg-base-200 shadow-xl rounded-xl">
@@ -212,7 +212,7 @@ We offer pressure washing solutions for a wide range of customers including:
     <div className={`p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'property' ? '' : 'hidden'}`} id="property" role="tabpanel" aria-labelledby="property-tab">
         {/* Property Managers Content */}
         <ul role="list" className="space-y-4">
-        <div className=" min-h-screen bg-base-200 shadow-xl rounded-xl">
+        <div className=" min-h-screen shadow-xl rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500">
     <div className="hero-content flex-col lg:flex-row ">
 
     <Image
@@ -224,32 +224,32 @@ We offer pressure washing solutions for a wide range of customers including:
 />
 
     <div className = "pl-5">
-    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Pressure Washing for Property-Managers</h1>
-    <p className="py-6">As a property manager or business owner you know the difficulties of keeping the exterior of your commercial building clean and in good condition. Throughout seasons properties can become dirty and worn. ProWash of the GrandStrand can help maintain your building and offers several benefits to your business.</p>
-<p> Keeping a clean and tidy building is often correlated to the success of a business as it can attract new customers and increase property values. However, property managers and owners can make the mistake of considering pressure washing services a luxury whereas in reality, every business owner and manager needs the help of a pressure washing company. This is regardless of the type of property you manage. Here are a few reasons why:</p>
+    <h1 className="text-5xl font-bold mb-5 tracking-tight text-center text-base-200">Pressure Washing for Property-Managers</h1>
+    <p className="py-6 text-base-200">As a property manager or business owner you know the difficulties of keeping the exterior of your commercial building clean and in good condition. Throughout seasons properties can become dirty and worn. ProWash of the GrandStrand can help maintain your building and offers several benefits to your business.</p>
+<p className= "text-base-200"> Keeping a clean and tidy building is often correlated to the success of a business as it can attract new customers and increase property values. However, property managers and owners can make the mistake of considering pressure washing services a luxury whereas in reality, every business owner and manager needs the help of a pressure washing company. This is regardless of the type of property you manage. Here are a few reasons why:</p>
 <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6 pt-8">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Increased Property Value - A clean and appealing building is a valuable building. A professional and experienced pressure washing company can easily leave any building looking fresh and like new. This becomes very important for attracting new tenants to rent or buy property. Research by the National Association of Realtors says that pressure washing property will result in it selling faster and for $10,000 to $15,000 more than the original selling price.</span>
+            <span className="leading-tight text-base-200">Increased Property Value - A clean and appealing building is a valuable building. A professional and experienced pressure washing company can easily leave any building looking fresh and like new. This becomes very important for attracting new tenants to rent or buy property. Research by the National Association of Realtors says that pressure washing property will result in it selling faster and for $10,000 to $15,000 more than the original selling price.</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Cost Reduction - By keeping your building clean can prolong the lifespan of the material and avoid having to replace parts. Pressure washing is a form of preventive maintenance and it helps keep the exterior of your building clean and in good condition. By using gentle pressure with cleaning agents that are safe for plants and flowers will help you lower the maintenance cost of your buildings. ProWash of the GrandStrand cleans exterior sidings, entryways, walkways, parking lots, and dumpster pads to maintain a fresh “like new” appearance and improving curb appeal.</span>
+            <span className="leading-tight text-base-200">Cost Reduction - By keeping your building clean can prolong the lifespan of the material and avoid having to replace parts. Pressure washing is a form of preventive maintenance and it helps keep the exterior of your building clean and in good condition. By using gentle pressure with cleaning agents that are safe for plants and flowers will help you lower the maintenance cost of your buildings. ProWash of the GrandStrand cleans exterior sidings, entryways, walkways, parking lots, and dumpster pads to maintain a fresh “like new” appearance and improving curb appeal.</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Make A Good Impression - ​For managers or owners trying to rent out condos or apartment units, good impressions are critical to the success of your business. Qualified renters observe every part of a property when deciding where to live, this includes landscaping, and exterior building maintenance. An experienced pressure washing service can help property managers and owners ensure that every detail appears inviting and attractive.​</span>
+            <span className="leading-tight text-base-200">Make A Good Impression - ​For managers or owners trying to rent out condos or apartment units, good impressions are critical to the success of your business. Qualified renters observe every part of a property when deciding where to live, this includes landscaping, and exterior building maintenance. An experienced pressure washing service can help property managers and owners ensure that every detail appears inviting and attractive.​</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
-            <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight pb-6">Attract and Retain Tenants - Pressure washing is a cost-effective way to attract and retain tenants. Tenants want to feel proud and comfortable where they live and by maintaining the buildings cleanliness standards is one way to do this. ProWash of the GrandStrand is a professional pressure washing company that has the experience and expertise needed to enhance any property.</span>
+            <span className="leading-tight pb-6 text-base-200">Attract and Retain Tenants - Pressure washing is a cost-effective way to attract and retain tenants. Tenants want to feel proud and comfortable where they live and by maintaining the buildings cleanliness standards is one way to do this. ProWash of the GrandStrand is a professional pressure washing company that has the experience and expertise needed to enhance any property.</span>
         </li>
         <button className="btn btn-primary">Contact Us For Help</button>
     </div>
@@ -259,7 +259,7 @@ We offer pressure washing solutions for a wide range of customers including:
 </div>
 
 
-    <div className={`p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'faq' ? '' : 'hidden'}`} id="property" role="tabpanel" aria-labelledby="faq-tab">
+    <div className={`p-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg md:p-8 dark:bg-gray-800 ${activeTab === 'faq' ? '' : 'hidden'}`} id="property" role="tabpanel" aria-labelledby="faq-tab">
         {/* FAQ Content */}
         <h2 className="mb-5 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">Frequently asked questions</h2>
         <div className="collapse collapse-plus bg-base-200 ring-1 ring-current">

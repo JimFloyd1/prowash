@@ -7,8 +7,8 @@ const Benefits = () => {
 <div className= "" >
 <p className = "pt-9 text-center font-medium text-4xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
 
-<div className="w-full h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 bg-opacity-70 bg-gradient rounded-3xl object-cover">
-    <div className="card w-96 bg-base-100 p-4 m-2">
+<div className="w-full h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 rounded-3xl object-cover bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="card w-96 bg-base-100 p-4 m-2 ">
 <figure>
 <Image
         src = "/icon6.png"
@@ -17,8 +17,8 @@ const Benefits = () => {
         alt='icon3'
 />
 </figure>
-    <div className="card-body">
-        <h2 className="card-title">We Are Experts</h2>
+    <div className="card-body ">
+        <h2 className="card-title ">We Are Experts</h2>
         <p>
     When you hire ProWash Pressure Washing{"'"} we come equipped with the latest gadgets and tools to do the job
     When you rent a power washer{"'"} you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</p>
@@ -27,7 +27,7 @@ const Benefits = () => {
         </div>
     </div>
     </div>
-    <div className="card w-96 bg-base-100 p-4 m-2">
+    <div className="card w-96 bg-base-100 p-4 m-2 ">
     <figure>
     <Image
         src = "/icon2.png"
@@ -71,7 +71,7 @@ const Benefits = () => {
 
 
     <div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
-    <div className="card w-96 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
+    <div className="card w-96 m-2 bg-base-300 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full object-cover">
     <figure>
     <Image
         src = "/icon3.png"
@@ -80,9 +80,9 @@ const Benefits = () => {
         alt='icon3'
 />
     </figure>
-    <div className="card-body">
-        <h2 className="card-title">Live in a clean home that is hygienic for family and guests</h2>
-        <p className='text-center'>
+    <div className="card-body ">
+        <h2 className="card-title text-base-200">Live in a clean home that is hygienic for family and guests</h2>
+        <p className='text-center text-base-200'>
         Pressure washing protects against harmful bacteria, vital for families with allergies or young children. Yearly pressure washing maintains property and outdoor spaces​​</p>
         <div className="card-actions justify-end">
         </div>
@@ -90,7 +90,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 p-4 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
+    <div className="card w-96 p-4 m-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full object-cover">
     <figure>
     <Image
         src = "/icon4.png"
@@ -100,8 +100,8 @@ const Benefits = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title">​No Work for You</h2>
-        <p className = "text-center">
+        <h2 className="card-title text-base-200">​No Work for You</h2>
+        <p className = "text-center text-base-200">
     While you{"'"}re relaxing with beach trips or barbecues leave the hard work to us. We are pros. This is what we do
     Homeowners Insurance does not cover you if your property is intentionally destroyed
         </p>
@@ -111,7 +111,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 p-4 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
+    <div className="card w-96 p-4 m-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full object-cover">
     <figure>
     <Image
         src = "/icon5.png"
@@ -121,8 +121,8 @@ const Benefits = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title">Safe for the environment​</h2>
-        <p className='text-center'>
+        <h2 className="card-title text-base-200">Safe for the environment​</h2>
+        <p className='text-center text-base-200'>
     Our cleaning solutions are safe for plants{"'"} animals{"'"} and children
     We are mindful of the planet and minimize any environmental impact when doing the job
     We believe in keeping the planet green

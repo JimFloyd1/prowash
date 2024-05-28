@@ -3,8 +3,9 @@ import Image from 'next/image'
 
 
 const Hero = () => {
+
   return (
-<div className="hero min-h-screen rounded-3xl object-cover"
+<div className="hero min-h-screen rounded-3xl object-cover ring-8 ring-blue-400"
     style={{backgroundImage: 'url(./prowash1.jpg)'}}>
   <div className="hero-overlay bg-opacity-40 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">

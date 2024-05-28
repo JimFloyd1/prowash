@@ -18,7 +18,7 @@ const Quote = () => {
   <div className="divider divider-secondary"></div>
   <div className="divider divider-accent"></div>
 
-<p className="text-center text-4xl font-bold p-5">Our Simple, Quote Process</p>
+<p className="text-center text-4xl font-bold p-5">Our Simple, Free Quote Process</p>
 <p className="text-center text-2xl font-bold p-5">Follow These Steps to Get Started</p>
 </div>
 
@@ -38,7 +38,7 @@ const Quote = () => {
     <div className="card-body">
         <h2 className="card-title">1. REQUEST A QUOTE</h2>
         <p>
-        We understand that youre busy; thats why we created a custom quote form to make the process seamless. Once you submit the form, it will be sent to us right away, and our team will respond within a few hours.</p>
+        We know you're busy, so we've made things simple with our custom quote form. Just fill it out and send it our way, and we'll get back to you within a few hours!</p>
     </div>
     </div>
     <div className="card w-96 bg-base-100 p-4">
@@ -53,7 +53,7 @@ const Quote = () => {
     <div className="card-body">
         <h2 className="card-title">2. SET A SCHEDULE</h2>
         <p>
-        Setting a routine cleaning schedule will ensure that your property is always clean throughout the whole year. The process is easy; just request a quick quote and let us know when you want our team to come to clean your property. We strive to make the booking process as convenient for you as possible!
+        Keep your property sparkling clean all year round with our easy routine cleaning schedule. Just ask for a quick quote, let us know when you'd like us to come by, and we'll handle the rest. We want to make booking with us as easy as possible for you!
         </p>
         <div className="card-actions justify-end">
         </div>
@@ -73,22 +73,24 @@ const Quote = () => {
     <div className="card-body">
         <h2 className="card-title"> 3. SIT BACK & RELAX</h2>
         <p>
-        All that’s left to do is sit back and relax as you watch our cleaning experts transform your property. When you see the new shine, you’ll wonder how you went so long without our pressure washing service!        </p>
+        Now, all you need to do is sit back and relax while our cleaning experts work their magic. Once you see the amazing results, you{"'"}ll wonder how you ever managed without our pressure washing service!</p>
         <div className="card-actions justify-end">
         </div>
     </div>
     </div>
     </div>
-  </div>
+    </div>
 </div>
 
 
+{/* Form */}
 
-    <div className="w-full ">
-    <div className="px-60">
-    <div className="space-y-9 ">
-    <div className="pb-2">
-    <h2 className="text-2xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
+
+<div className="hero min-h-screen object-cover p-20 bg-base-200 rounded-full bg-gradient-to-r from-blue-500">
+    <div className="hero-content flex-col ">
+    <div className="space-y-12">
+    <div className="border-b pb-2">
+    <h2 className="text-3xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
     </div>
 
     <label className="input input-bordered flex items-center gap-2">
@@ -113,12 +115,11 @@ const Quote = () => {
 
 <div className="flex">
     <textarea placeholder="Message (Optional)" className="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
-
 </div>
 
 
-
-            <div className="mt-10 space-y-10">
+<div className = "bg-white rounded-3xl">
+            <div className="mt-10 space-y-10 text-center m-4 p-5">
                 <fieldset>
                 <legend className="text-lg font-semibold leading-4 ">What Services are you interested in?</legend>
                 <div className="mt-6 space-y-1">
@@ -218,6 +219,7 @@ const Quote = () => {
                 </fieldset>
             </div>
             </div>
+        </div>
         </div>
         </div>
     </form>
