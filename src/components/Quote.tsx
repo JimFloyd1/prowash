@@ -1,15 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 
-
 const Quote = () => {
   return (
+
+    <div>
+  <form>
 <div>
-<div>
-</div>
 <div className=" p-20 bg-base-200">
   <div className="hero-content flex-col ">
-
     <div>
       <h1 className="text-5xl font-bold">Property Managers & Community Pressure Washing</h1>
       <p className="py-8">ProWash Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
@@ -105,25 +104,17 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
       <button className="btn btn-primary display: flex justify-content: center align-items: center">Contact Us For Help</button>
     </div>
 
-
-{/* Closing */}
-<div className="card-body flex-wrap">
-        <h2 className="text-2xl font-bold mb-2">ProWash of the GrandStrand has been in business since 1988 and is proud to offer the highest quality service.</h2>
-        <p className="text-lg ">
-        READY TO GET STARTED? We would love to hear from you. Contact us any time for a free estimate.
-        </p>
-        <p>
-        All of our services are guaranteed to be carried out with the maximum amount of professionalism and quality.
-        </p>
-      </div>
-      </div>
-
-    <div className="flex flex-wrap p-6 space-y-12">
-    <div className="card-actions">
-      <button className="btn btn-primary">Contact us</button>
-    </div>
   </div>
 </div>
+
+
+
+
+    </form>
+    </div>
+
+
+
   );
 };
 
