@@ -10,17 +10,22 @@ const Quote = () => {
 
 <div>
 
-<figure className = "bg-red-500">
-    <Image
-        src = "/quote9.png"
-        width={400}
-        height={400}
-        alt='icon3'
-        className="display: block m-auto"
-/>
-    </figure>
 
-<div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
+<div className="flex flex-col w-full">
+
+
+  <div className="divider divider-primary"></div>
+  <div className="divider divider-secondary"></div>
+  <div className="divider divider-accent"></div>
+
+<p className="text-center text-4xl font-bold p-5">Our Simple, Quote Process</p>
+<p className="text-center text-2xl font-bold p-5">Follow These Steps to Get Started</p>
+</div>
+
+
+
+
+<div className="w-full h-full rounded-md flex flex-wrap justify-center">
     <div className="card w-96 bg-base-100 p-4">
 <figure>
 <Image

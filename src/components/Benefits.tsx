@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Benefits = () => {
     return (
-<div className= "bg-base-200 rounded-full object-cover">
+<div className= "" >
 <p className = "pt-9 text-center font-medium text-4xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
 
-<div className="w-full h-full rounded-md my-4 p-8 flex flex-wrap justify-center">
+<div className="w-full h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 bg-opacity-70 bg-gradient rounded-3xl object-cover">
     <div className="card w-96 bg-base-100 p-4 m-2">
 <figure>
 <Image
@@ -71,7 +71,7 @@ const Benefits = () => {
 
 
     <div className="w-full h-full rounded-md my-4 p-2 flex flex-wrap justify-center">
-    <div className="card w-96 bg-base-100 m-2">
+    <div className="card w-96 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
     <figure>
     <Image
         src = "/icon3.png"
@@ -82,16 +82,15 @@ const Benefits = () => {
     </figure>
     <div className="card-body">
         <h2 className="card-title">Live in a clean home that is hygienic for family and guests</h2>
-        <p>
-    Pressure washing offers protection against harmful bacteria that fester and grow around the property. For people with allergies or small children this can be very important
-    The best way to keep your property and outdoor space well-maintained is with yearly pressure washing​​</p>
+        <p className='text-center'>
+        Pressure washing protects against harmful bacteria, vital for families with allergies or young children. Yearly pressure washing maintains property and outdoor spaces​​</p>
         <div className="card-actions justify-end">
         </div>
     </div>
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4 m-2">
+    <div className="card w-96 p-4 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
     <figure>
     <Image
         src = "/icon4.png"
@@ -102,7 +101,7 @@ const Benefits = () => {
     </figure>
     <div className="card-body">
         <h2 className="card-title">​No Work for You</h2>
-        <p>
+        <p className = "text-center">
     While you{"'"}re relaxing with beach trips or barbecues leave the hard work to us. We are pros. This is what we do
     Homeowners Insurance does not cover you if your property is intentionally destroyed
         </p>
@@ -112,7 +111,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4 m-2">
+    <div className="card w-96 p-4 m-2 bg-base-300 bg-opacity-70 bg-gradient rounded-full object-cover">
     <figure>
     <Image
         src = "/icon5.png"
@@ -123,7 +122,7 @@ const Benefits = () => {
     </figure>
     <div className="card-body">
         <h2 className="card-title">Safe for the environment​</h2>
-        <p>
+        <p className='text-center'>
     Our cleaning solutions are safe for plants{"'"} animals{"'"} and children
     We are mindful of the planet and minimize any environmental impact when doing the job
     We believe in keeping the planet green
