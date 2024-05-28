@@ -298,7 +298,7 @@ We offer pressure washing solutions for a wide range of customers including:
     </div>
     <div className="collapse-content">
         <p>
-        You can give it a go, but we wouldn't recommend it. While it might seem straightforward, many of our clients have found that it takes more knowledge and skill to get great results than they initially thought. Plus, it can be quite time-consuming. Our ProWash Of The GrandStrand team will come to your home with specialized equipment and extensive expertise in safe procedures to ensure the best possible outcome.
+        You can give it a go, but we wouldn{"'"}t recommend it. While it might seem straightforward, many of our clients have found that it takes more knowledge and skill to get great results than they initially thought. Plus, it can be quite time-consuming. Our ProWash Of The GrandStrand team will come to your home with specialized equipment and extensive expertise in safe procedures to ensure the best possible outcome.
         </p>
     </div>
     </div>
@@ -309,7 +309,7 @@ We offer pressure washing solutions for a wide range of customers including:
     How Often Should I Pressure Wash My Home?
     </div>
     <div className="collapse-content">
-        <p>The frequency of pressure washing depends on the surface material. Generally speaking, most surfaces need cleaning at least once a year. However, the condition of the surface and any organic growth buildup can affect how often you'll need to power wash. By keeping up with regular cleaning, you can easily manage and prevent organic growth all year round!</p>
+        <p>The frequency of pressure washing depends on the surface material. Generally speaking, most surfaces need cleaning at least once a year. However, the condition of the surface and any organic growth buildup can affect how often you{"'"}ll need to power wash. By keeping up with regular cleaning, you can easily manage and prevent organic growth all year round!</p>
     </div>
     </div>
 
