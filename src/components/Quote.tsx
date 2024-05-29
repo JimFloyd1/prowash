@@ -86,11 +86,11 @@ const Quote = () => {
 {/* Form */}
 
 
-<div className="hero min-h-screen object-cover p-20 bg-base-200 rounded-full bg-gradient-to-r from-blue-500">
+<div className="hero min-h-screen p-2 bg-base-200 rounded-full bg-gradient-to-r from-blue-500">
     <div className="hero-content flex-col ">
     <div className="space-y-12">
     <div className="border-b pb-2">
-    <h2 className="text-3xl font-semibold leading-7 ">Have Prowash Send Me a Quote</h2>
+    <h2 className="text-3xl font-semibold leading-7 pt-20">Have Prowash Send Me a Quote</h2>
     </div>
 
     <label className="input input-bordered flex items-center gap-2">
@@ -118,11 +118,11 @@ const Quote = () => {
 </div>
 
 
-<div className = "bg-white rounded-3xl">
-            <div className="mt-10 space-y-10 text-center m-4 p-5">
+<div className = "bg-white rounded-full p-2">
+            <div className="text-center m-4 p-5 rounded-full">
                 <fieldset>
                 <legend className="text-lg font-semibold leading-4 ">What Services are you interested in?</legend>
-                <div className="mt-6 space-y-1">
+                <div className="mt-4 space-y-1">
 
                     <div className="relative flex gap-x-3">
                     <div className="flex h-6 items-center">

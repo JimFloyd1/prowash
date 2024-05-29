@@ -7,8 +7,8 @@ const Benefits = () => {
 <div className= "" >
 <p className = "pt-9 mt-12 text-center font-medium text-4xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
 
-<div className="w-full h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 rounded-3xl object-cover bg-gradient-to-r from-cyan-500 to-blue-500">
-    <div className="card w-96 bg-base-100 p-4 m-2 ">
+<div className="w-full  h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 rounded-3xl object-cover bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div className="card w-96 bg-base-100 p-4 m-2 shadow-2xl">
 <figure>
 <Image
         src = "/icon6.png"
@@ -18,7 +18,7 @@ const Benefits = () => {
 />
 </figure>
     <div className="card-body ">
-        <h2 className="card-title ">We Are Experts</h2>
+        <h2 className="card-title">We Are Experts</h2>
         <p>
     When you hire ProWash Pressure Washing{"'"} we come equipped with the latest gadgets and tools to do the job
     When you rent a power washer{"'"} you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</p>
@@ -27,7 +27,7 @@ const Benefits = () => {
         </div>
     </div>
     </div>
-    <div className="card w-96 bg-base-100 p-4 m-2 ">
+    <div className="card w-96 bg-base-100 p-4 m-2 shadow-2xl">
     <figure>
     <Image
         src = "/icon2.png"
@@ -47,7 +47,7 @@ const Benefits = () => {
     </div>
 
 
-    <div className="card w-96 bg-base-100 p-4 m-2">
+    <div className="card w-96 bg-base-100 p-4 m-2 shadow-2xl">
     <figure>
     <Image
         src = "/icon1.png"

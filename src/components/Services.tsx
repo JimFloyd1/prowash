@@ -163,7 +163,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Commercial Pressure Washing</h1>
     <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
 
-<ol className = "mt-5"> We offer pressure washing solutions for a wide range of customers including:
+<p className = "mt-5"> We offer pressure washing solutions for a wide range of customers including:
 <li className = "list-disc pt-5">Restaurants</li>
 <li className = "list-disc">Retail Spaces</li>
 <li className = "list-disc">Banks</li>
@@ -175,7 +175,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
 <li className = "list-disc">Community Centers</li>
 <li className = "list-disc">Financial institutions</li>
 <li className = "list-disc">And more!</li>
-</ol>
+</p>
 </p>
 
 <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
