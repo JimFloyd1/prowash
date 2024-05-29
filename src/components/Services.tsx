@@ -109,7 +109,8 @@ return (
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center text-base-200">Dirty Home? Short On Time?
 Let Us Help You!</h1>
     <p className="py-6 text-base-200">As a homeowner{"'"}s it{"'"}s important to keep the exterior of your home looking good and clean. This is not only important for curb appeal but it can protect your home from damage. A buildup of dirt{"'"} debris{"'"} mold & mildew can lead to a number of issues{"'"} including structural problems{"'"} if not dealt with right away.
-​The hot and humid weather of Myrtle Beach{"'"} SC can make a big impact on the appearance of your home. In addition to the usual accumulation of dirt{"'"} dust and grime that builds up on home siding{"'"} you also have to deal with the unsightly growth of algae{"'"} mold and mildew.
+​The hot and humid weather of Myrtle Beach{"'"} SC can make a big impact on the appearance of your home.</p>
+<p className="py-6 text-base-200"> In addition to the usual accumulation of dirt{"'"} dust and grime that builds up on home siding{"'"} you also have to deal with the unsightly growth of algae{"'"} mold and mildew.
 ​It also makes your home look nicer{"'"} which is important whether you are selling the house or plan to continue living there for some time
 Our Gentle Wash House Washing is ideal for all types of home exteriors in the Myrtle Beach & Surrounding Areas.</p>
 
@@ -160,9 +161,9 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
 />
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Commercial Pressure Washing</h1>
-    <ol className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
+    <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
 
-We offer pressure washing solutions for a wide range of customers including:
+<ol className = "mt-5"> We offer pressure washing solutions for a wide range of customers including:
 <li className = "list-disc pt-5">Restaurants</li>
 <li className = "list-disc">Retail Spaces</li>
 <li className = "list-disc">Banks</li>
@@ -175,6 +176,7 @@ We offer pressure washing solutions for a wide range of customers including:
 <li className = "list-disc">Financial institutions</li>
 <li className = "list-disc">And more!</li>
 </ol>
+</p>
 
 <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -186,13 +188,13 @@ We offer pressure washing solutions for a wide range of customers including:
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Prevent Damage: Regular pressure washing removes harmful substances like mold{"'"} mildew{"'"} and grime{"'"} extending the lifespan of your building{"'"}s surfaces.</span>
+            <span className="leading-tight">Prevent Damage: Regular pressure washing removes harmful substances like mold, mildew, and grime, extending the lifespan of your building{"'"}s surfaces.</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight">Promote Health and Safety: Eliminate slippery surfaces{"'"} pollutants{"'"} and allergens{"'"} creating a safer and healthier environment for employees and customers.​</span>
+            <span className="leading-tight">Promote Health and Safety: Eliminate slippery surfaces, pollutants, and allergens, creating a safer and healthier environment for employees and customers.​</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
