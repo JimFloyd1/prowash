@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 
 const Services = () => {
-const [activeTab, setActiveTab] = useState('stats');
+const [activeTab, setActiveTab] = useState('residential');
 
 const handleTabClick = (tab: string) => {
 setActiveTab(tab);
@@ -27,6 +27,10 @@ return (
         <option value="faq">FAQ</option>
     </select>
     </div>
+
+
+
+{/* TABS */}
 
 
     <ul className="hidden text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600 dark:text-gray-400 rtl:divide-x-reverse" id="fullWidthTab" role="tablist">
@@ -87,12 +91,16 @@ return (
         >
         FAQ
         </button>
-
-
     </li>
     </ul>
+
+
+
+    {/* CONTENT */}
     <div id="fullWidthTabContent" className="border-t">
     <div className= {`p-4 rounded-lg md:p-8 ${activeTab === 'residential' ? '' : 'hidden'}`} id="residential" role="tabpanel" aria-labelledby="residential-tab">
+
+
         {/* Residential Content */}
         <ul role="list" className="space-y-4">
         <div className="hero min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 shadow-xl rounded-3xl ">

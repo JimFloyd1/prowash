@@ -5,7 +5,9 @@ import Image from 'next/image'
 const Benefits = () => {
     return (
 <div className= "" >
-<p className = "pt-9 mt-12 text-center font-medium text-4xl">Benefits of Having Your Property Pressure Washed by Prowash of the GrandStrand</p>
+<p className = "py-12 mt-12 text-center font-medium text-4xl ">Why You{"'"}ll Love Having Prowash of the GrandStrand Pressure Wash Your Property
+
+</p>
 
 <div className="w-full  h-full my-4 p-8 flex flex-wrap justify-center bg-base-300 rounded-3xl object-cover bg-gradient-to-r from-cyan-500 to-blue-500">
     <div className="card w-96 bg-base-100 p-4 m-2 shadow-2xl">

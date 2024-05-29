@@ -18,8 +18,8 @@ const Quote = () => {
   <div className="divider divider-secondary"></div>
   <div className="divider divider-accent"></div>
 
-<p className="text-center text-4xl font-bold p-5">Our Simple, Free Quote Process</p>
-<p className="text-center text-2xl font-bold p-5">Follow These Steps to Get Started</p>
+<p className="text-center text-4xl font-bold p-5 font-serif">Our Simple, Free Quote Process</p>
+<p className="text-center text-2xl font-bold p-5 font-serif">Follow These Steps to Get Started</p>
 </div>
 
 
@@ -36,8 +36,8 @@ const Quote = () => {
 />
 </figure>
     <div className="card-body">
-        <h2 className="card-title">1. REQUEST A QUOTE</h2>
-        <p>
+        <h2 className="card-title font-serif">1. REQUEST A QUOTE</h2>
+        <p className='font-serif'>
         We know you{"'"}re busy, so we{"'"}ve made things simple with our custom quote form. Just fill it out and send it our way, and we{"'"}ll get back to you within a few hours!</p>
     </div>
     </div>
@@ -51,8 +51,8 @@ const Quote = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title">2. SET A SCHEDULE</h2>
-        <p>
+        <h2 className="card-title font-serif">2. SET A SCHEDULE</h2>
+        <p className='font-serif'>
         Keep your property sparkling clean all year round with our easy routine cleaning schedule. Just ask for a quick quote, let us know when you{"'"}d like us to come by, and we{"'"}ll handle the rest. We want to make booking with us as easy as possible for you!
         </p>
         <div className="card-actions justify-end">
@@ -71,8 +71,8 @@ const Quote = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title"> 3. SIT BACK & RELAX</h2>
-        <p>
+        <h2 className="card-title font-serif"> 3. SIT BACK & RELAX</h2>
+        <p className='font-serif'>
         Now, all you need to do is sit back and relax while our cleaning experts work their magic. Once you see the amazing results, you{"'"}ll wonder how you ever managed without our pressure washing service!</p>
         <div className="card-actions justify-end">
         </div>
@@ -86,11 +86,11 @@ const Quote = () => {
 {/* Form */}
 
 
-<div className="hero min-h-screen p-2 bg-base-200 rounded-full bg-gradient-to-r from-blue-500">
+<div className="hero min-h-screen p-2 rounded-full bg-gradient-to-r from-blue-500">
     <div className="hero-content flex-col ">
-    <div className="space-y-12">
+    <div className="space-y-14">
     <div className="border-b pb-2">
-    <h2 className="text-3xl font-semibold leading-7 pt-20">Have Prowash Send Me a Quote</h2>
+    <h2 className="text-3xl font-semibold pt-40">Have Prowash Send Me a Quote</h2>
     </div>
 
     <label className="input input-bordered flex items-center gap-2">
@@ -118,11 +118,11 @@ const Quote = () => {
 </div>
 
 
-<div className = "bg-white rounded-full p-2">
+<div className = "rounded-full p-1">
             <div className="text-center m-4 p-5 rounded-full">
                 <fieldset>
-                <legend className="text-lg font-semibold leading-4 ">What Services are you interested in?</legend>
-                <div className="mt-4 space-y-1">
+                <legend className="text-2xl font-semibold leading-7 text-base-400">What Services are you interested in?</legend>
+                <div className="mt-4 space-y-3">
 
                     <div className="relative flex gap-x-3">
                     <div className="flex h-6 items-center">
@@ -134,7 +134,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="house" className="font-medium ">
+                        <label htmlFor="house" className="font-medium text-base-400 text-sm">
                         House/Building Pressure Washing
                         </label>
                     </div>
@@ -150,7 +150,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="patio" className="font-medium ">
+                        <label htmlFor="patio" className="font-medium text-base-400 text-sm">
                         Patio & Deck Cleaning
                         </label>
                     </div>
@@ -166,7 +166,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="driveway" className="font-medium ">
+                        <label htmlFor="driveway" className="font-medium text-base-400 text-sm">
                         Driveway/Walkway Cleaning
                         </label>
                     </div>
@@ -182,7 +182,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="stain" className="font-medium ">
+                        <label htmlFor="stain" className="font-medium text-base-400 text-sm">
                         Stain Treatment
                         </label>
                     </div>
@@ -199,7 +199,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="commercial" className="font-medium ">
+                        <label htmlFor="commercial" className="font-medium text-base-400 text-sm">
                         Commercial Cleaning Services
                         </label>
                     </div>
@@ -207,7 +207,7 @@ const Quote = () => {
 
                 </div>
 
-                <div className="gap-x-6 p-4">
+                <div className="gap-x-2 p-4">
             <button
             type="submit"
             className="rounded-md bg-indigo-600 px-3 py-2text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
