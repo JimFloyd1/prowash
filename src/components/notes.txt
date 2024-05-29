@@ -883,3 +883,15 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
     />
   </div>
 </div>
+
+
+
+
+<> PRETTY COOL ACTIVE CLASS
+
+  const isActive = true; // Example condition
+  return (
+    <div className={isActive ? "bg-green-500" : "bg-red-500"}>
+      This div changes color based on the isActive state
+    </div>
+  )

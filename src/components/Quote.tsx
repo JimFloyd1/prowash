@@ -118,10 +118,10 @@ const Quote = () => {
 </div>
 
 
-<div className = "bg-white rounded-full p-2">
+<div className = "bg-white  rounded-full p-2">
             <div className="text-center m-4 p-5 rounded-full">
                 <fieldset>
-                <legend className="text-lg font-semibold leading-4 ">What Services are you interested in?</legend>
+                <legend className="text-lg font-semibold leading-4 text-base-200">What Services are you interested in?</legend>
                 <div className="mt-4 space-y-1">
 
                     <div className="relative flex gap-x-3">
@@ -134,7 +134,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="house" className="font-medium ">
+                        <label htmlFor="house" className="font-medium text-base-200">
                         House/Building Pressure Washing
                         </label>
                     </div>
@@ -150,7 +150,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="patio" className="font-medium ">
+                        <label htmlFor="patio" className="font-medium text-base-200">
                         Patio & Deck Cleaning
                         </label>
                     </div>
@@ -166,7 +166,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="driveway" className="font-medium ">
+                        <label htmlFor="driveway" className="font-medium text-base-200">
                         Driveway/Walkway Cleaning
                         </label>
                     </div>
@@ -182,7 +182,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="stain" className="font-medium ">
+                        <label htmlFor="stain" className="font-medium text-base-200">
                         Stain Treatment
                         </label>
                     </div>
@@ -199,7 +199,7 @@ const Quote = () => {
                         />
                     </div>
                     <div className="text-sm leading-6">
-                        <label htmlFor="commercial" className="font-medium ">
+                        <label htmlFor="commercial" className="font-medium text-base-200">
                         Commercial Cleaning Services
                         </label>
                     </div>
