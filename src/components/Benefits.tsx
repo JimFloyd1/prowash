@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Benefits = () => {
     return (
 <div className= "" >
-<p className = "py-12 mt-12 text-center font-medium text-4xl ">Why You{"'"}ll Love Having Prowash of the GrandStrand Pressure Wash Your Property
+<p className = "py-12 mt-12 text-center font-medium text-4xl ">Why You{"'"}ll Love Having Us Pressure Wash Your Property
 
 </p>
 
