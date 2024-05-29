@@ -18,8 +18,8 @@ const Quote = () => {
   <div className="divider divider-secondary"></div>
   <div className="divider divider-accent"></div>
 
-<p className="text-center text-4xl font-bold p-5">Our Simple, Free Quote Process</p>
-<p className="text-center text-2xl font-bold p-5">Follow These Steps to Get Started</p>
+<p className="text-center text-4xl font-bold p-5 font-serif">Our Simple, Free Quote Process</p>
+<p className="text-center text-2xl font-bold p-5 font-serif">Follow These Steps to Get Started</p>
 </div>
 
 
@@ -36,8 +36,8 @@ const Quote = () => {
 />
 </figure>
     <div className="card-body">
-        <h2 className="card-title">1. REQUEST A QUOTE</h2>
-        <p>
+        <h2 className="card-title font-serif">1. REQUEST A QUOTE</h2>
+        <p className='font-serif'>
         We know you{"'"}re busy, so we{"'"}ve made things simple with our custom quote form. Just fill it out and send it our way, and we{"'"}ll get back to you within a few hours!</p>
     </div>
     </div>
@@ -51,8 +51,8 @@ const Quote = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title">2. SET A SCHEDULE</h2>
-        <p>
+        <h2 className="card-title font-serif">2. SET A SCHEDULE</h2>
+        <p className='font-serif'>
         Keep your property sparkling clean all year round with our easy routine cleaning schedule. Just ask for a quick quote, let us know when you{"'"}d like us to come by, and we{"'"}ll handle the rest. We want to make booking with us as easy as possible for you!
         </p>
         <div className="card-actions justify-end">
@@ -71,8 +71,8 @@ const Quote = () => {
 />
     </figure>
     <div className="card-body">
-        <h2 className="card-title"> 3. SIT BACK & RELAX</h2>
-        <p>
+        <h2 className="card-title font-serif"> 3. SIT BACK & RELAX</h2>
+        <p className='font-serif'>
         Now, all you need to do is sit back and relax while our cleaning experts work their magic. Once you see the amazing results, you{"'"}ll wonder how you ever managed without our pressure washing service!</p>
         <div className="card-actions justify-end">
         </div>
