@@ -88,9 +88,9 @@ const Quote = () => {
 
 <div className="hero min-h-screen p-2 rounded-full bg-gradient-to-r from-blue-500">
     <div className="hero-content flex-col ">
-    <div className="space-y-12">
+    <div className="space-y-14">
     <div className="border-b pb-2">
-    <h2 className="text-3xl font-semibold leading-7 pt-20">Have Prowash Send Me a Quote</h2>
+    <h2 className="text-3xl font-semibold pt-40">Have Prowash Send Me a Quote</h2>
     </div>
 
     <label className="input input-bordered flex items-center gap-2">
@@ -207,7 +207,7 @@ const Quote = () => {
 
                 </div>
 
-                <div className="gap-x-6 p-4">
+                <div className="gap-x-2 p-4">
             <button
             type="submit"
             className="rounded-md bg-indigo-600 px-3 py-2text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
