@@ -272,7 +272,7 @@ TABLE COLUMNS AND ROWS
 
 <tbody>
     <tr className="border-2">
-        <td className="border-2">When you hire ProWash Pressure Washing, we come equipped with the latest gadgets and tools to do the job
+        <td className="border-2">When you hire ProWash Of The GrandStrand Pressure Washing, we come equipped with the latest gadgets and tools to do the job
     When you rent a power washer, you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</td>
         <td className="border-2">According to the National Association of Realtors, washing a house can add $10,000 to $15,000 to the sales price of some properties
     A good thorough professional pressure washing is an important aspect of attracting potential buyers and will help you sell faster​​ for more money</td>
@@ -867,7 +867,7 @@ Commercial Section internal
   <div className="hero-content flex-col ">
     <div>
       <h1 className="text-5xl font-bold">Property Managers & Community Pressure Washing</h1>
-      <p className="py-8">ProWash Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
+      <p className="py-8">ProWash Of The GrandStrand Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
 We are Proud and Committed to Offering Pressure Washing Services throughout our Community
 We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirement Communities, Pool Deck Pressure Washing, Parks & Recreational Facility Cleaning, Municipal & Government Buildings, HOA Common Areas and More!</p>
       <p>​If You Have Any Questions or Would Like a FREE Quote Click Here or Call 843-457-8440
@@ -895,3 +895,110 @@ We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirem
       This div changes color based on the isActive state
     </div>
   )
+
+
+
+
+
+CHECKED BOX IN FORM 
+<div className = "rounded-full p-1">
+            <div className="text-center m-4 p-5 rounded-full">
+                <fieldset>
+                <legend className="text-2xl font-semibold leading-7 text-base-400">What Services are you interested in?</legend>
+                <div className="mt-4 space-y-3">
+
+                    <div className="relative flex gap-x-3">
+                    <div className="flex h-6 items-center">
+                        <input
+                        id="house"
+                        name="house"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                    </div>
+                    <div className="text-sm leading-6">
+                        <label htmlFor="house" className="font-medium text-base-400 text-sm">
+                        House/Building Pressure Washing
+                        </label>
+                    </div>
+                    </div>
+
+                    <div className="relative flex gap-x-3">
+                    <div className="flex h-6 items-center">
+                        <input
+                        id="patio"
+                        name="patio"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                    </div>
+                    <div className="text-sm leading-6">
+                        <label htmlFor="patio" className="font-medium text-base-400 text-sm">
+                        Patio & Deck Cleaning
+                        </label>
+                    </div>
+                    </div>
+
+                    <div className="relative flex gap-x-3">
+                    <div className="flex h-6 items-center">
+                        <input
+                        id="driveway"
+                        name="driveway"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                    </div>
+                    <div className="text-sm leading-6">
+                        <label htmlFor="driveway" className="font-medium text-base-400 text-sm">
+                        Driveway/Walkway Cleaning
+                        </label>
+                    </div>
+                    </div>
+
+                    <div className="relative flex gap-x-3">
+                    <div className="flex h-6 items-center">
+                        <input
+                        id="stain"
+                        name="stain"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                    </div>
+                    <div className="text-sm leading-6">
+                        <label htmlFor="stain" className="font-medium text-base-400 text-sm">
+                        Stain Treatment
+                        </label>
+                    </div>
+                    </div>
+                    <div className="relative flex gap-x-3">
+
+                    <div className="relative flex gap-x-3">
+                    <div className="flex h-6 items-center">
+                        <input
+                        id="commercial"
+                        name="commercial"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                    </div>
+                    <div className="text-sm leading-6">
+                        <label htmlFor="commercial" className="font-medium text-base-400 text-sm">
+                        Commercial Cleaning Services
+                        </label>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div className="gap-x-2 p-4">
+            <button
+            type="submit"
+            className="rounded-md bg-indigo-600 px-3 py-2text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+            Submit Info to Prowash
+            </button>
+                </div>
+                </div>
+                </fieldset>
+            </div>
+            </div>

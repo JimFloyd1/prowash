@@ -13,7 +13,7 @@ const About = () => {
     width={600}
     height={600}
     alt="Prowash!"
-    className="rounded-full object-cover ring-8 ring-blue-400 "
+    className="rounded-full object-cover ring-2 ring-blue-400 "
     />
     <div>
 
@@ -26,7 +26,7 @@ const About = () => {
 ​We service Myrtle Beach, North Myrtle Beach, Carolina Forest, Murrell{"'"}s Inlet, Socastee, Garden City, Litchfield, Conway, and Surfside.​
 </p>
 
-      <button className="btn m-9">Get Started</button>
+      <button className="btn btn-primary m-9">Get Started</button>
     </div>
   </div>
 </div>
