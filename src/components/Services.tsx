@@ -21,7 +21,7 @@ return (
         onChange={(e) => handleTabClick(e.target.value)}
         value={activeTab}
     >
-    <option value="residential">Residential</option>
+    <option value="residential">Residential (Dropdown)</option>
         <option value="commercial">Commercial</option>
         <option value="property">Property Managers</option>
         <option value="faq">FAQ</option>
