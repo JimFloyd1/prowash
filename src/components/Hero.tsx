@@ -6,7 +6,13 @@ const Hero = () => {
 
   return (
 <div className="hero min-h-screen rounded-3xl object-cover ring-2 ring-blue-400"
-    style={{backgroundImage: 'url(./prowash1.jpg)'}}>
+style={{backgroundImage: 'url(./prowash1.jpg)'}}>
+{/* <Image
+src="/prowash1.jpg"
+alt="loading.."
+className="" fill
+/> */}
+
   <div className="hero-overlay bg-opacity-40 rounded-3xl"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="pb-20">
