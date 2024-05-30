@@ -7,7 +7,6 @@ const page = () => {
       <div className="overflow-hidden py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
-
 <div className="flex items-center space-x-4">
   <div className="flex-shrink-0 h-10 w-10 flex items-center justify-center rounded-lg bg-indigo-600 text-white">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -17,9 +16,6 @@ const page = () => {
 </div>
 <h1 className="mt-2 text-xl font-bold tracking-tight ">House Washing</h1>
 </div>
-
-
-
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
@@ -57,7 +53,7 @@ const page = () => {
                     </svg>
                   </div>
 
-                  The Benefits of Pressure Washing your home
+                  <h3>The Benefits of Pressure Washing your home</h3>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">No matter what stage of home-ownership or property management you{"’"}re at, ProWash Of The GrandStrand Pressure Washing is your key to a better exterior. We work with customers who are: Putting their home on the market and want to accelerate their listing Investing in the long-term quality of their home.</dd>
               </div>
@@ -69,7 +65,7 @@ const page = () => {
                     </svg>
                   </div>
 
-                  Ready for a long-overdue clean for their property
+                  <h3>Ready for a long-overdue clean for their property</h3>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600"> Whether it{"'"}s a one-time deep clean or an annual house washing, we have a solution for you. We care about the success of your property. Using the best equipment, safe and effective cleaning techniques, and committed customer service, ProWash Of The GrandStrand Pressure Washing is your solution for house washing done right.</dd>
               </div>
@@ -81,7 +77,7 @@ const page = () => {
                   </svg>
                   </div>
 
-                  ​​​An Improved Level of Curb Appeal
+                  <h3>​​​An Improved Level of Curb Appeal</h3>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">Throughout the Grand Strand Area, our climate makes it difficult to maintain the aesthetics of your home as it is always exposed to the elements. Your home is always fighting the elements to maintain curb appeal. Our climate makes it tough for your siding to look beautiful - and it needs a helping hand to uphold its appearance.</dd>
               </div>
@@ -93,7 +89,7 @@ const page = () => {
                     </svg>
                   </div>
 
-                  The Professional House Washing Advantage
+                  <h3>The Professional House Washing Advantage</h3>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">We have years of experience serving homeowners in the Grand Strand Area, and have created a formula for success that brings you top quality and lasting curb appeal. The professional power washing service is about long-term quality. We have solutions for one-time cleaning projects and annual service, so your house always has that ‘just-washed’ effect.</dd>
               </div>
@@ -123,7 +119,7 @@ const page = () => {
                 <p className="leading-8 ">Ready to take the next step? Contact us today for a fast quote. Our team of experts is ready to help you keep your home looking its best.</p>
                 </div>
                 </div>
-              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-blue-300 to-blue-400 rounded-xl shadow-lg mb-9">
+              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-blue-300 to-blue-400 rounded-xl shadow-lg mb-9 ring-2 ring-black">
                 <div className="grid grid-cols-1 gap-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">

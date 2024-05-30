@@ -104,7 +104,7 @@ const Quote = () => {
 </div>
 </div>
 
-              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-blue-300 to-blue-400 rounded-xl shadow-lg mb-3">
+              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-blue-300 to-blue-400 rounded-xl shadow-lg mb-3 ring-2 ring-black">
                 <div className="grid grid-cols-1 gap-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-semi text-gray-700">
