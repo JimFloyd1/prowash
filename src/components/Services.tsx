@@ -17,7 +17,7 @@ return (
     <label htmlFor="tabs" className="sr-only">Select tab</label>
     <select
         id="tabs"
-        className="bg-gray-50 border-0 border-b border-gray-200 text-gray-900 text-sm rounded-t-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        className="bg-gray-200 border-2 border-black text-gray-900 text-md rounded-t-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         onChange={(e) => handleTabClick(e.target.value)}
         value={activeTab}
     >
@@ -166,7 +166,7 @@ Let Us Help You!</h1>
 />
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Commercial Pressure Washing</h1>
-    <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Of The GrandStrand Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
+    <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
     </p>
 <ol className = "mt-5"> We offer pressure washing solutions for a wide range of customers including:
 <li className = "list-disc mt-6">Restaurants</li>
@@ -284,7 +284,7 @@ Let Us Help You!</h1>
         <li>
         Always On Time - We show up on time and are always professional.
         </li>
-<p className = "mt-5">ProWash Of The GrandStrand Pressure Washing has been providing pressure washing services since 1988. Our long-term experience helps us understand the unique needs of our customers. </p>
+<p className = "mt-5">ProWash Pressure Washing has been providing pressure washing services since 1988. Our long-term experience helps us understand the unique needs of our customers. </p>
     </div>
     </div>
 

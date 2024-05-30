@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const page = () => {
   return (
     <div>
+
       <div className="overflow-hidden py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -105,8 +107,8 @@ const page = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <div className="lg:text-center">
-              <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl ">Hire a Professional Pressure Washer</h1>
-              <h3 className="text-2xl font-semibold leading-7 ">Contact us Today!</h2>
+              <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl ">Hire a Professional Pressure Washer</h2>
+              <h3 className="text-2xl font-semibold leading-7 ">Contact us Today!</h3>
             </div>
             <div className="mt-10 flex flex-col lg:flex-row items-center gap-10">
               <div className="lg:w-2/3 text-lg">
