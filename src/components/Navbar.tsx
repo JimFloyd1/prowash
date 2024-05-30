@@ -17,7 +17,7 @@ const Navbar = () => {
         <li>
           <a>Services</a>
           <ul className="p-2 z-10">
-          <li><a>House Washing</a></li>
+          <li><a href="/house-washing">House Washing</a></li>
           <li><a>Concrete Cleaning </a></li>
           <li><a>Patio & Deck Cleaning</a></li>
           <li><a>Commercial Services</a></li>
@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
     </div>
     <figure>
-      <a className= "btn btn-ghost" href='/'>
+      <a className= "btn btn-ghost" href="/">
 <Image
         src = "/logo1.png"
         width={100}
@@ -43,26 +43,26 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
       <li>
 
-<Link href ="/#">Home</Link>
+<Link href ="/">Home</Link>
 
       </li>
       <li>
         <details>
           <summary>Services</summary>
           <ul className="p-2 z-10">
-          <li><a>House Washing</a></li>
-          <li><a>Concrete Cleaning </a></li>
-          <li><a>Patio & Deck Cleaning</a></li>
-          <li><a>Commercial Services</a></li>
-          <li><a>Property Managers</a></li>
+          <li><a href="/house-washing">House Washing</a></li>
+          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
+          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
+          <li><a href="/commercial-services">Commercial Services</a></li>
+          <li><a href="/property-managers">Property Managers</a></li>
           </ul>
         </details>
       </li>
-      <li><a>Get a Fast Quote</a></li>
+      <li><a href='/quote'>Get a Fast Quote</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href ="/login">Login</Link>
+    <Link href ="/login">Admin</Link>
   </div>
 </div>
 

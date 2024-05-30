@@ -116,13 +116,10 @@ return (
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center text-base-200">Dirty Home? Short On Time?
 Let Us Help You!</h1>
-    <p className="py-6 text-base-200">As a homeowner{"'"}s it{"'"}s important to keep the exterior of your home looking good and clean. This is not only important for curb appeal but it can protect your home from damage. A buildup of dirt{"'"} debris{"'"} mold & mildew can lead to a number of issues{"'"} including structural problems{"'"} if not dealt with right away.
-​The hot and humid weather of Myrtle Beach{"'"} SC can make a big impact on the appearance of your home.</p>
-<p className="py-6 text-base-200"> In addition to the usual accumulation of dirt{"'"} dust and grime that builds up on home siding{"'"} you also have to deal with the unsightly growth of algae{"'"} mold and mildew.
-​It also makes your home look nicer{"'"} which is important whether you are selling the house or plan to continue living there for some time
-Our Gentle Wash House Washing is ideal for all types of home exteriors in the Myrtle Beach & Surrounding Areas.</p>
+    <p className="py-3 text-base-200">As a homeowner, keeping the exterior of your home clean is important. Not only does it boost curb appeal, but it also protects your home from damage. Dirt, debris, mold, and mildew can cause structural problems if not addressed. The hot and humid weather in Myrtle Beach can impact your home{"'"}s appearance.</p>
+<p className="py-6 text-base-200"> In addition to dirt and grime, you also have to deal with algae, mold, and mildew. A clean home looks better, whether you{"’"}re selling or staying. Our Gentle Wash House Washing is perfect for all types of home exteriors in Myrtle Beach and the surrounding areas.</p>
 
-<li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
+        <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
@@ -132,7 +129,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
             </svg>
-            <span className="leading-tight text-base-200">All House Trim, Window{"'"}s, Soffit{"'"}s, Door{"'"}s, Gutter{"'"}s, Garage Door{"'"}s, will be Pressure Washed</span>
+            <span className="leading-tight text-base-200">All House Trim, Window{"'"}s, Soffit{"'"}s, Door{"'"}s, Gutter{"'"}s, Garage Door{"'"}s, Will Be Pressure Washed</span>
         </li>
         <li className="flex space-x-2 rtl:space-x-reverse items-center pb-6">
             <svg className="flex-shrink-0 w-3.5 h-3.5 text-green-100 dark:text-green-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -169,7 +166,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
 />
     <div className = "pl-5">
     <h1 className="text-5xl font-bold mb-5 tracking-tight text-center">Commercial Pressure Washing</h1>
-    <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
+    <p className="py-6">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Of The GrandStrand Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.
     </p>
 <ol className = "mt-5"> We offer pressure washing solutions for a wide range of customers including:
 <li className = "list-disc mt-6">Restaurants</li>
@@ -287,7 +284,7 @@ Our Gentle Wash House Washing is ideal for all types of home exteriors in the My
         <li>
         Always On Time - We show up on time and are always professional.
         </li>
-<p className = "mt-5">ProWash Pressure Washing has been providing pressure washing services since 1988. Our long-term experience helps us understand the unique needs of our customers. </p>
+<p className = "mt-5">ProWash Of The GrandStrand Pressure Washing has been providing pressure washing services since 1988. Our long-term experience helps us understand the unique needs of our customers. </p>
     </div>
     </div>
 

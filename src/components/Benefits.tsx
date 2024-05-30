@@ -22,7 +22,7 @@ const Benefits = () => {
     <div className="card-body ">
         <h2 className="card-title">We Are Experts</h2>
         <p>
-    When you hire ProWash Pressure Washing{"'"} we come equipped with the latest gadgets and tools to do the job
+    When you hire ProWash Of The GrandStrand Pressure Washing{"'"} we come equipped with the latest gadgets and tools to do the job
     When you rent a power washer{"'"} you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</p>
         <div className="card-actions justify-end">
         <button className="btn btn-primary">Contact Us For Help</button>

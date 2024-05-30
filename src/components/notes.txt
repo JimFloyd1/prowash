@@ -272,7 +272,7 @@ TABLE COLUMNS AND ROWS
 
 <tbody>
     <tr className="border-2">
-        <td className="border-2">When you hire ProWash Pressure Washing, we come equipped with the latest gadgets and tools to do the job
+        <td className="border-2">When you hire ProWash Of The GrandStrand Pressure Washing, we come equipped with the latest gadgets and tools to do the job
     When you rent a power washer, you have one project in mind. When you hire us we have the skills and tools to handle any unexpected developments</td>
         <td className="border-2">According to the National Association of Realtors, washing a house can add $10,000 to $15,000 to the sales price of some properties
     A good thorough professional pressure washing is an important aspect of attracting potential buyers and will help you sell faster​​ for more money</td>
@@ -867,7 +867,7 @@ Commercial Section internal
   <div className="hero-content flex-col ">
     <div>
       <h1 className="text-5xl font-bold">Property Managers & Community Pressure Washing</h1>
-      <p className="py-8">ProWash Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
+      <p className="py-8">ProWash Of The GrandStrand Pressure Washing works with many Property Managers throughout Myrtle Beach and Surrounding Areas​
 We are Proud and Committed to Offering Pressure Washing Services throughout our Community
 We Service: Apartment Complexes, Townhome Communities, HOA Common Areas, Retirement Communities, Pool Deck Pressure Washing, Parks & Recreational Facility Cleaning, Municipal & Government Buildings, HOA Common Areas and More!</p>
       <p>​If You Have Any Questions or Would Like a FREE Quote Click Here or Call 843-457-8440
