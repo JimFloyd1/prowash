@@ -4,8 +4,6 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Navbar2 from "../components/Navbar2";
-// import _documents from "./_documents"
-
 
 
 const inter = Inter({
