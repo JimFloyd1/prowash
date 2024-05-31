@@ -57,7 +57,7 @@ const page = () => {
 
             <h3>Myrtle Beach, SC Residential Pressure Washing </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">By hiring a professional pressure washer with the right tools and experience to clean your patio or deck on a regular basis can increase the lifespan of your patio or deck by several years. If you're considering selling your home this year, consider pressure washing your patio or deck to increase the value of your property. Studies have shown that outdoor living spaces that are appealing to buyers increase the value of the property. </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">By hiring a professional pressure washer with the right tools and experience to clean your patio or deck on a regular basis can increase the lifespan of your patio or deck by several years. If you{"'"}re considering selling your home this year, consider pressure washing your patio or deck to increase the value of your property. Studies have shown that outdoor living spaces that are appealing to buyers increase the value of the property. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
