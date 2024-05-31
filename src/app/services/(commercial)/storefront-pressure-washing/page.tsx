@@ -13,15 +13,27 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Storefront Pressure Washing</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Our Storefront Pressure Washing Process</h2>
+      <p className="mt-6 text-lg leading-8">Your storefront and entrance-ways can tell customers a lot about your business. This space should be inviting to new customers and make existing customers feel proud to be a loyal returning customer. ProWash Pressure Washing offers professional storefront and entrance-way pressure washing that will help your business deliver the best first impression.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​We offer pressure washing solutions for a wide range of customers including: </p>
+      <ul className="list-disc list-inside  mt-2 text-base leading-7">
+        <li>Restaurants</li>
+        <li>Retail Spaces</li>
+        <li>Banks</li>
+        <li>Gas Stations</li>
+        <li>Showrooms</li>
+        <li>Churches</li>
+        <li>Offices</li>
+        <li>Car dealerships</li>
+        <li>Community Centers</li>
+        <li>Financial institutions</li>
+        <li>And more!</li>
+      </ul>
     </div>
   </div>
   <Image
@@ -52,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Flexible scheduling to minimize business disruption</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Scheduling - We understand you have a business to run, so we offer very flexible scheduling that won't disrupt the flow of foot traffic in your business. Our team works around your timing to ensure minimal impact on your operations, allowing you to maintain a smooth and efficient business environment.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +76,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Thorough initial assessment for customized cleaning solutions</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Onsite Assessment - Before we start cleaning, we always conduct a thorough initial inspection. This helps us understand what your exterior needs to get the best service and outcome possible. Our detailed assessments ensure that we address all specific requirements and problem areas for a tailored cleaning solution.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +88,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Enhancing curb appeal with comprehensive storefront cleaning.</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Storefront Cleaning - If your storefront area is surrounded by walkways and sidewalks, we can add a concrete cleaning solution to keep the entire area curb appeal friendly. Clean and well-maintained walkways and sidewalks enhance the overall appearance of your storefront, making it more inviting for customers.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +100,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Ensuring quality with a final inspection</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Final Inspection - After cleaning, we always conduct a final inspection to ensure all surfaces and sidings are spotless, leaving your storefront shining. This meticulous approach guarantees that every detail is addressed, providing you with a pristine and professional-looking property. </dd>
         </div>
       </dl>
     </div>

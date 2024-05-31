@@ -13,15 +13,17 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Commercial Property Pressure Washing</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Commercial Property</h2>
+      <p className="mt-6 text-lg leading-8">As a property manager or business owner you know the difficulties of keeping the exterior of your commercial building clean and in good condition. Throughout seasons properties can become dirty and worn. ProWash Pressure Washing can help maintain your building and offers several benefits to your business.</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Hire a Pressure Washing Expert</h2>
+      <p className="mt-6 text-lg leading-8 mb-4">​​Pressure washing can be dangerous if not performed the correct way. Hiring a professional and their expertise ensures the safety of your employees’.</p>
+      <p className="mt-6 text-lg leading-8">For more information on ProWash Pressure Washing applications, please contact us. We will be happy to assist you with your pressure washing needs. We perform commercial pressure washing in Myrtle Beach and surrounding areas. No project is too big, or too small.</p>
+      <p className="mt-6 text-lg leading-8">Your property is an investment and its important to maintain your building. ProWash Pressure Washing invests in the best technology and equipment to get the job done. </p>
     </div>
   </div>
   <Image
@@ -39,8 +41,8 @@ const page = () => {
 <div className="bg-white rounded-t-3xl py-24 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl lg:text-center">
-      <h2 className="text-base font-semibold leading-7 text-indigo-600">Residential SoftWash</h2>
-      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Soft Wash Cleaning Is Ideal For All Types Of Home Exteriors</h3>
+      <h2 className="text-base font-semibold leading-7 text-indigo-600">Professional Commercial Pressure Washing Services</h2>
+      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Maintain Your Commercial Property with ProWash of the GrandStrand</h3>
     </div>
     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
       <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
@@ -52,9 +54,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Spend less time and money on building maintenance and repairs</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">A buildup of dirt, algae, and mold can create rot and damage your building. Left unwashed, some building materials start to deteriorate as time passes. Having your building pressure washed annually can help reduce this risk. This will save your business on the cost of repairs and maintenance over time.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +66,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Improve the curb appeal of your building</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The building itself is often customers’ first impression of your business or property. A clean, well-maintained building creates a positive impression and makes your business more attractive to potential customers. Many people don’t want to shop in a store that looks dirty. Regularly pressure-washing may also boost the building’s value.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +78,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Prevent potential damage to your building or property</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Without the correct tools or experience that comes with hiring a pressure washing expert, you risk the potential of damaging your building. Hiring a professional to perform a commercial pressure washing service ensures that your building is kept clean the correct way, and you can focus your time to building the business.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +90,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Reduce the risk of injury to your employees </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Having your employees pressure wash your property is not always the best decision. Apart from the potential damage that may be caused to your building, your employees’ health could be a liability. </dd>
         </div>
       </dl>
     </div>

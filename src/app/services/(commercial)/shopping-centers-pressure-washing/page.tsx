@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Pressure Washing for Shopping Center</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Shopping Centers </h2>
+      <p className="mt-6 text-lg leading-8">Shopping center managers understand the importance of maintaining curb appeal as it can help attract more customers and make them feel comfortable visiting.  </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​​Properly maintaining a shopping center may include the removal of gum, spider webs, mold, mildew, unwanted stains, debris, dirt, and bird droppings. In addition, it may also include exterior cleanings such as pressure washing, window washing, sidewalk brightening, and awning cleaning.</p>
+      <p className="mt-6 text-lg leading-8">Whether you own or manage a shopping center, mall, plaza, retail store, or parking garage owners and property managers should trust ProWash Pressure Washing to help maintain all of the exterior surfaces that may be dirty. </p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>​Hire a Professional Pressure Washing Company</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Your property is an investment and its important to maintain your building. ProWash Pressure Washing invests in the best technology and equipment to get the job done. ​We perform commercial pressure washing in Myrtle Beach and surrounding areas. No project is too big, or too small.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Importance of curb appeal for shopping centers</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Shopping center managers understand the importance of maintaining curb appeal as it can help attract more customers and make them feel comfortable visiting. A clean, well-maintained shopping center creates a positive impression and encourages repeat visits, which is crucial for the success of retail businesses.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Comprehensive cleaning services for all exterior surfaces</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Properly maintaining a shopping center includes removing gum, spider webs, mold, mildew, unwanted stains, debris, dirt, and bird droppings. ProWash Pressure Washing offers comprehensive exterior cleaning services such as pressure washing, window washing, sidewalk brightening, and awning cleaning to ensure every aspect of your property looks its best.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -90,8 +90,20 @@ const page = () => {
 
             <h3>Walkways & Driveways give the First Impression</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <ul className="list-disc list-inside  mt-2 text-base leading-7 text-gray-600">
+          Our Shopping Center Cleaning Services Include:
+        <li>Storefront pressure washing</li>
+        <li>Exterior Siding pressure washing</li>
+        <li>Parking-lot pressure washing</li>
+        <li>Sidewalk pressure washing</li>
+        <li>Stain removal</li>
+        <li>Gum removal</li>
+        <li>Awning cleaning</li>
+        <li>Walkway cleaning</li>
+        <li>Dumpster Pads</li>
+        <li>Trash Enclosures</li>
+        <li>And more!</li>
+      </ul>
         </div>
       </dl>
     </div>

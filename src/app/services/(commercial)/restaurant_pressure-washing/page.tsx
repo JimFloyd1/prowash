@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">
+Pressure Washing for Restaurants & Bars</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Comprehensive exterior cleaning services for restaurants and bars</h2>
+      <p className="mt-6 text-lg leading-8">As a restaurant owner or manager, it's easy to understand the importance cleaning and sanitation plays in the ultimate success of your business. By hiring a professional pressure washing company will help owners and managers disinfect and deodorize the business area. This will give customers the impression the business is well sterilized and will help maintain cleanliness standards to pass health code regulations and moreover avoid negative reviews of customers. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​ProWash Pressure Washing will keep your business clean and inviting to customers. We focus on cleaning exterior consuming areas of the restaurants & bars, patio areas, sidewards, decks, windows, awnings, and exterior walls. This means getting rid of stains, mold & mildew, gum stains, debris, spider webs, and leaving your business clean, sterilized, and hygienic for customers to gather and enjoy.</p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Enhance customer satisfaction with a clean and inviting environment </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">As a restaurant owner or manager, it's crucial to understand the importance of cleaning and sanitation for the success of your business. Hiring a professional pressure washing company helps owners and managers disinfect and deodorize the business area. This creates a welcoming environment, ensures compliance with health code regulations, and helps avoid negative customer reviews, ultimately enhancing customer satisfaction.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Improve aesthetics and curb appeal with targeted cleaning</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Our services include gentle pressure cleaning on entrances and facades, brightening pathways, and removing old gum stains and tire marks. These targeted cleaning efforts enhance the aesthetics and curb appeal of your property. A well-maintained front entrance and clean pathways make a positive first impression, encouraging visitors to return.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Maintain hygiene and deter pests with professional cleaning</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure washing and disinfecting dumpster areas reduce insect and rodent problems, improving the smell and appearance of your property. Cleaning patios, removing debris, and maintaining awnings not only enhance the look of your establishment but also ensure a hygienic environment for your customers. Regular professional cleaning guarantees a flawless impression and keeps customers feeling welcome.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -90,8 +90,19 @@ const page = () => {
 
             <h3>Walkways & Driveways give the First Impression</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+
+          <dd className="mt-2 text-base leading-7 text-gray-600">Our Services Include: </dd>
+          <ul className="list-disc list-inside  mt-2 text-base leading-7 text-gray-600">
+        <li>Exterior cleaning using gentle pressure on entrances and facades. This will help the aesthetics of the property. An important factor to make sure visitors continue coming back is to make a good impression through maintaining the establishment's front entrance. </li>
+        <li>Cleaning pathways to get rid of dirt and brightening sidewalks and other concrete surface areas.</li>
+        <li>Remove old gum stains and tire-marks. Removal of tire marks from parking lots or drive-thru's' to improve the aesthetics and curb appeal. </li>
+        <li>Clean patios of built-up dirt, leaves, and debris brought in from the wind.</li>
+        <li>Pressure Washing and disinfecting your dumpster area. This will reduce the problem of insects and rodents in the area and improve the smell and appearance. </li>
+        <li>Awning cleaning to eliminate mold, mildew, stains, and carbon (from vehicles) to give it a like-new look and bring out the awning brightest colors. </li>
+        <li>Clean the signs and posts of your establishment.</li>
+        <li>And more!</li>
+        <dd className="mt-2 text-base leading-7 text-gray-600">By doing this will guarantee customers feel welcome and are greeted with a flawless impression.  </dd>
+      </ul>
         </div>
       </dl>
     </div>

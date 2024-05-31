@@ -90,7 +90,7 @@ const page = () => {
 
             <h3>Our Pressure Washing Service</h3>
           </dt>
-          <ul className="list-disc list-inside  mt-2 text-base leading-7 text-gray-600">
+          <ul className="list-disc list-inside  mt-2 text-base leading-7">
         <li>Rubber Roof will be Hand Washed</li>
         <li>Exterior Sidings will be Hand Washed</li>
         <li>Roof Treatment</li>

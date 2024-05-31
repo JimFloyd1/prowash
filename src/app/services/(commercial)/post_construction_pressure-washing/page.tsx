@@ -13,15 +13,18 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Post-Construction Pressure Washing</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+Exterior Pressure Washing for Post-Construction Projects
+</h2>
+      <p className="mt-6 text-lg leading-8">​The final phase of cleanup is the most thorough and pressure washing should be performed just before the final walk-through. This will ensure the area is clean and up to standard. By having a thorough pressure wash of the building(s) will eliminate all leftover dirt, or debris on sidings, sidewalks, entrance ways, or any other hardscapes.  </p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Prepare for the Final Walkthrough</h2>
+      <p className="mt-6 text-lg leading-8 mb-4">​​ProWash Pressure Washing has been providing commercial pressure washing services for customers since 1988. Our long-term experience helps us understand the unique needs of commercial customers.</p>
+      <p className="mt-6 text-lg leading-8">​When you get post-construction cleaning from ProWash Pressure Washing you’re getting a complete solution for your property. Invest in the best - your curb appeal will thank you.</p>
     </div>
   </div>
   <Image
@@ -52,9 +55,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Importance of thorough post-construction cleanup</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The final phase of cleanup in any construction project is crucial, and pressure washing should be performed just before the final walk-through. This ensures that the area is clean and up to standard, eliminating all leftover dirt or debris on sidings, sidewalks, entrance ways, and other hardscapes. A thorough pressure wash provides a pristine finish to the project.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +67,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Comprehensive post-construction pressure washing services</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">ProWash Pressure Washing offers a comprehensive range of pressure washing services for post-construction cleanup. Our services include pressure washing all sidings, driveways, sidewalks, walkways, entrance ways, dumpster pads, and exterior windows. This thorough cleaning process ensures that every part of your property is spotless and ready for presentation.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +79,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Experience and expertise in commercial pressure washing</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">With over three decades of experience, ProWash Pressure Washing understands the unique needs of commercial customers. Since 1988, we have been providing top-quality pressure washing services, making us a trusted partner for post-construction cleanup. Our expertise ensures that your property will look its best for the final walkthrough.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +91,19 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Enhancing curb appeal and property value</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure Washing Services for Post-Cleanup Include: </dd>
+          <ul className="list-disc list-inside  mt-2 text-base leading-7 text-gray-600">
+        <li>Pressure Washing All Sidings</li>
+        <li>Driveways</li>
+        <li>Sidewalks</li>
+        <li>Walkways</li>
+        <li>Entrance Ways</li>
+        <li>Dumpster Pads</li>
+        <li>Pressure Washing all Exterior Windows</li>
+        <li>And More!</li>
+      </ul>
         </div>
       </dl>
     </div>

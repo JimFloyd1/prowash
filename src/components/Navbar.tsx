@@ -52,7 +52,7 @@ const Navbar = () => {
       <li>
         <details>
           <summary>
-            <a href="/residential-softwash">House Soft Wash
+            <a href="/services/residential-softwash">House Soft Wash
             </a>
             </summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
@@ -74,7 +74,10 @@ const Navbar = () => {
 
       <li>
         <details>
-          <summary>Commercial Pressure Wash</summary>
+          <summary>
+          <a href="/services/commercial-pressure-washing">Commercial Pressure Wash
+            </a>
+          </summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
           <li><a href="/services/awning-pressure-washing">Awning Pressure Washing</a></li>
           <li><a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a></li>

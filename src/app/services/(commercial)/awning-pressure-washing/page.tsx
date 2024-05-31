@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Awning Cleaning</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Awnings for Commercial Properties ​</h2>
+      <p className="mt-6 text-lg leading-8">Business owners and managers wanting to give customers the best first appearance should have their awning pressure washed. Awnings are usually forgotten about or overlooked when it comes to maintaining your building. However, customers driving or walking up to your business can often spot the cleanliness of your awnings.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​The importance of cleaning your Awning - Pressure washing can get rid of unwanted stains, mold, mildew, debris and bacteria from your awning that will improve the curb appeal of your establishment. Often traffic pollution can cause awning to get dirtier faster. In addition to traffic pollution, the natural weather conditions of Myrtle Beach often cause awning to get dirtier faster. </p>
+      <p className="mt-6 text-lg leading-8">​​If awnings are ignored and left to collect dirt this can impact the curb appeal of the business and may result in negative feedback from customers about being a dirty establishment. Awnings should only be cleaned by having them professionally pressure washed. This will ensure it has been cleaned correctly without risking damage and will bring a new life into the colors of your awning. This is the best method for giving your awning a like-new appearance.</p>
     </div>
   </div>
   <Image
@@ -39,8 +39,8 @@ const page = () => {
 <div className="bg-white rounded-t-3xl py-24 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl lg:text-center">
-      <h2 className="text-base font-semibold leading-7 text-indigo-600">Residential SoftWash</h2>
-      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Soft Wash Cleaning Is Ideal For All Types Of Home Exteriors</h3>
+      <h2 className="text-base font-semibold leading-7 text-indigo-600">Professional Commercial Pressure Washing Services</h2>
+      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Maintain Your Commercial Property with ProWash of the GrandStrand</h3>
     </div>
     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
       <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>We Clean Several Types of Awning </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">There are many different types of awnings your establishment may need pressure washed. Your awnings can be made from several types of material including those that can be delicate or solid and be constructed from soft products like canvass to harder products like aluminum. Still, how often you clean your awning depends on how frequently you care for it and type of awning your business has.  </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Get a Quote </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">ProWash Pressure Washing offers commercial awning pressure washing services to businesses such as restaurants, banks, retail stores, office building, and more! We have been providing commercial pressure washing services for customers since 1988. Our long-term experience helps us understand the unique needs of commercial customers.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>We Work Around Your Schedule</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">We understand you must keep your business running, so we work around your schedule for minimal impact to your customers and employees.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -90,8 +90,21 @@ const page = () => {
 
             <h3>Walkways & Driveways give the First Impression</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Common Types of Awnings We Clean </dd>
+          <ul className="list-disc list-inside  mt-2 text-base leading-7 text-gray-600">
+        <li>Rubber Roof will be Hand Washed</li>
+        <li>Exterior Sidings will be Hand Washed</li>
+        <li>Roof Treatment</li>
+        <li>Tire Cleaning</li>
+        <li>Rim Cleaning</li>
+        <li>Undercarriage</li>
+        <li>Exterior Mirrors and Windows</li>
+        <li>Spot-Free Rinse</li>
+        <li>Hand-Wax Treatment</li>
+        <li>Spray-Wax Treatment</li>
+        <li>Awning Cleaning</li>
+        <li>And more!</li>
+      </ul>
         </div>
       </dl>
     </div>

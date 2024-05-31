@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Pressure Washing Loading Docks </h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Loading Dock Cleaning </h2>
+      <p className="mt-6 text-lg leading-8">A loading dock is often an important part of a business. Moving packages in and out of the establishment allows companies to offer a variety of products that could increase revenue. However, due to the constant foot traffic, these areas often get dirty very fast and can cause the area to become slippery due to the dirt that goes through. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​This combination of dirt and grime can create dangerous conditions for employees who are moving heavy packages between this area. This is why it's important to keep loading docks clean at all times and will also help employees stay safe at all times.</p>
+      <p className="mt-6 text-lg leading-8">By keeping the loading dock pressure washed and clean you will not only give it a professional appearance but also add value to your business and this is very important when trying to attract and maintain customers. </p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Essential role of clean loading docks in business operations</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">A loading dock is a crucial part of any business, facilitating the movement of packages in and out of the establishment. This high-traffic area can become dirty quickly, impacting the efficiency of operations. Regular pressure washing ensures the loading dock remains clean and functional, allowing businesses to offer a variety of products and services that can increase revenue.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Preventing dangerous conditions for employees</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The combination of dirt and grime in loading docks can create slippery and hazardous conditions for employees handling heavy packages. Regular cleaning is essential to maintain a safe working environment, preventing accidents and ensuring the well-being of your staff. A clean loading dock contributes to overall workplace safety and efficiency.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Enhancing professional appearance and business value</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Keeping your loading dock pressure washed and clean not only enhances its professional appearance but also adds value to your business. A well-maintained loading dock reflects positively on your company's image, making it more attractive to customers and clients. This attention to detail can help in attracting and retaining business.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Importance of regular maintenance for business success</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Regular maintenance of loading docks through professional pressure washing services is a smart investment for any business. It helps prevent long-term damage, reduces the need for costly repairs, and ensures a clean and safe environment. ProWash Pressure Washing uses the latest technology and equipment to provide thorough and effective cleaning, supporting the overall success of your business. </dd>
         </div>
       </dl>
     </div>

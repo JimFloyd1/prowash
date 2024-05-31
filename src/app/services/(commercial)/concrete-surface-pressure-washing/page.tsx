@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Concrete Surface Pressure Washing</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Concrete </h2>
+      <p className="mt-6 text-lg leading-8">Concrete surfaces are found all over commercial property and can make a huge impression on customers. Due to the flow of foot traffic and vehicles, these surfaces typically become dirty fast and it's important to keep this area maintained.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">Curb Appeal - The cleanliness of your concrete surfaces is often customers' first impression about your business since concrete takes up a significant portion of your business.</p>
+      <p className="mt-6 text-lg leading-8">ProWash of the GrandStrand is committed to cleaning all hardscapes including: walkways, sidewalks, entryways, retaining walls, parking lots, parking garages, dumpster pads, drive-thrus, loading docks, and more. </p>
     </div>
   </div>
   <Image
@@ -39,8 +39,9 @@ const page = () => {
 <div className="bg-white rounded-t-3xl py-24 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl lg:text-center">
-      <h2 className="text-base font-semibold leading-7 text-indigo-600">Residential SoftWash</h2>
-      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Soft Wash Cleaning Is Ideal For All Types Of Home Exteriors</h3>
+      <h2 className="text-base font-semibold leading-7 text-indigo-600">Professional Commercial Pressure Washing Services</h2>
+      <h3 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Maintain Your Commercial Property with ProWash of the GrandStrand
+</h3>
     </div>
     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
       <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
@@ -52,9 +53,11 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Improve the Curb Appeal of your Business</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">​When you get commercial concrete cleaning from ProWash Pressure Washing, you’re getting a complete solution for your property. Invest in the best - your curb appeal will thank you.</dd>
+          <br></br>
+          <dd className="mt-2 text-base leading-7 text-gray-600"> ProWash Pressure Washing is committed to cleaning all hardscapes, including walkways, sidewalks, entryways, retaining walls, parking lots, parking garages, dumpster pads, drive-thrus, loading docks, and more. This comprehensive approach ensures that every concrete surface on your property is clean and well-maintained. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +67,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Enhance curb appeal with clean concrete</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The cleanliness of your concrete surfaces is often customers' first impression of your business, as concrete takes up a significant portion of your property. Clean, well-maintained concrete areas enhance curb appeal and reflect positively on your business, making it more attractive to potential customers.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +79,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Professional pressure washing for long-lasting results</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Hiring a professional pressure washing service like ProWash ensures that your concrete surfaces are cleaned thoroughly and safely. With the proper equipment and expertise, we can remove dirt, grime, and stains effectively, extending the lifespan of your concrete surfaces and keeping them looking great for years to come.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +91,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Importance of maintaining concrete surfaces</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Concrete surfaces are found all over commercial property and can make a huge impression on customers. Due to the flow of foot traffic and vehicles, these surfaces typically become dirty fast, making it crucial to keep this area well-maintained. Regular pressure washing ensures these surfaces remain clean and presentable. </dd>
         </div>
       </dl>
     </div>
