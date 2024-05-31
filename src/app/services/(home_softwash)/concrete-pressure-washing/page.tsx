@@ -119,10 +119,10 @@ const page = () => {
                 <p className="leading-8 ">Ready to take the next step? Contact us today for a fast quote. Our team of experts is ready to help you keep your home looking its best.</p>
                 </div>
                 </div>
-              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-blue-300 to-blue-400 rounded-xl shadow-lg mb-9 ring-2 ring-black">
+              <div className="lg:w-1/3 w-full p-6 bg-gradient-to-r from-indigo-200 to-indigo-400 rounded-xl shadow-lg mb-9 ring-2 ring-black">
                 <div className="grid grid-cols-1 gap-y-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="name" className="block text-smd font-medium text-black">
                       Name
                     </label>
                     <input
@@ -136,7 +136,7 @@ const page = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="phone" className="block text-smd font-medium text-black">
                       Phone
                     </label>
                     <input
@@ -150,7 +150,7 @@ const page = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="email" className="block text-md font-medium text-black">
                       Email
                     </label>
                     <input
@@ -164,7 +164,7 @@ const page = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="address" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="address" className="block text-md font-medium text-black">
                       Address
                     </label>
                     <input
@@ -178,7 +178,7 @@ const page = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                    <label htmlFor="message" className="block text-md font-medium text-black">
                       Message (optional)
                     </label>
                     <textarea

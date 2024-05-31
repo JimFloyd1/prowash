@@ -52,15 +52,21 @@ const Navbar = () => {
       <li>
         <details>
           <summary>
-            <a href="/residential">House SoftWash
+            <a href="/residential-softwash">House SoftWash
             </a>
             </summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
           <li><a href="/services/house-softwash">House Washing</a></li>
-          <li><a href="/services/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/services/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
+          <li><a href="/services/concrete-pressure-washing">Concrete Cleaning </a></li>
+          <li><a href="/services/patio-softwash">Patio & Deck Cleaning</a></li>
+          <li><a href="/services/driveway-pressure-washing">Driveway Pressure Washing</a></li>
+          <li><a href="/services/paver-tile-cleaning">Paver and Tile Cleaning</a></li>
+          <li><a href="/services/residential-softwash">Residential Softwash</a></li>
+          <li><a href="/services/rust-removal">Rust Removal</a></li>
+          <li><a href="/services/rv-softwash">RV Softwash</a></li>
+          <li><a href="/services/stucco-surface-cleaning">Stucco Surface Cleaning</a></li>
+          <li><a href="/services/trash-bin-cleaning">Trash Bin Cleaning</a></li>
+          <li><a href="/services/vinyl-softwash">Vinyal Softwash</a></li>
           </ul>
         </details>
       </li>
@@ -70,11 +76,15 @@ const Navbar = () => {
         <details>
           <summary>Commercial Pressure Wash</summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
+          <li><a href="/services/awning-pressure-washing">Awning Pressure Washing</a></li>
+          <li><a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a></li>
+          <li><a href="/services/concrete-pressure-washing">Concrete Pressure Washing</a></li>
+          <li><a href="/services/drive-through-pressure-washing">Drive Through Pressure Washing</a></li>
+          <li><a href="/services/loading-dock-pressure-washing">Loading Dock Pressure Washing</a></li>
+          <li><a href="/services/post_construction_pressure-washing">Post Construction Pressure Washing</a></li>
+          <li><a href="/services/restaurant_pressure-washing">Restaurant Pressure Washing</a></li>
+          <li><a href="/services/shopping-centers-pressure-washing">Shopping Centers Pressure Washing</a></li>
+          <li><a href="/services/storefront-pressure-washing">Store Front Pressure Washing</a></li>
           </ul>
         </details>
       </li>
@@ -84,11 +94,15 @@ const Navbar = () => {
         <details>
           <summary>Property Managers</summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
+          <li><a href="/services/apartment-pressure-washing">Apartment Pressure Washing</a></li>
+          <li><a href="/services/government-building-pressure-washing">Government Building Pressure Washing</a></li>
+          <li><a href="/services/hoa-pressure-washing">HOA Pressure Washing</a></li>
+          <li><a href="/services/hoa-trash-bin-pressure-washing">HOA Trash Bin Pressure Washing</a></li>
+          <li><a href="/services/park-facilities-pressure-washing">Park Facilities Pressure Washing</a></li>
+          <li><a href="/services/pool-decks-pressure-washing">Pool Decks Pressure Washing</a></li>
+          <li><a href="/services/retirement-facilities-pressure-washing ">Retirement Facilities Pressure Washing</a></li>
+          <li><a href="/services/town-home-pressure-washing">Town Home Pressure Washing</a></li>
+
           </ul>
         </details>
       </li>

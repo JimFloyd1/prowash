@@ -23,7 +23,7 @@ export default function RootLayout({
   children:React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="emerald">
+    <html lang="en" data-theme="luxury">
       <body>
         <section className='py-10'>
           <div className='container'>
