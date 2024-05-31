@@ -78,7 +78,7 @@ const Navbar = () => {
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
           <li><a href="/services/awning-pressure-washing">Awning Pressure Washing</a></li>
           <li><a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a></li>
-          <li><a href="/services/concrete-pressure-washing">Concrete Pressure Washing</a></li>
+          <li><a href="/services/concrete-surface-pressure-washing">Concrete Surface Pressure Washing</a></li>
           <li><a href="/services/drive-through-pressure-washing">Drive Through Pressure Washing</a></li>
           <li><a href="/services/loading-dock-pressure-washing">Loading Dock Pressure Washing</a></li>
           <li><a href="/services/post_construction_pressure-washing">Post Construction Pressure Washing</a></li>
