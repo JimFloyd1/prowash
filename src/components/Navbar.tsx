@@ -56,9 +56,9 @@ const Navbar = () => {
             </a>
             </summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
+          <li><a href="/services/house-softwash">House Washing</a></li>
+          <li><a href="/services/concrete-cleaning">Concrete Cleaning </a></li>
+          <li><a href="/services/patio-cleaning">Patio & Deck Cleaning</a></li>
           <li><a href="/commercial-services">Commercial Services</a></li>
           <li><a href="/property-managers">Property Managers</a></li>
           </ul>
