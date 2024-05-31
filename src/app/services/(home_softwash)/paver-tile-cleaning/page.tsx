@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Landscape Pavers and Tile Cleaning </h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Paver & Tile Cleaning</h2>
+      <p className="mt-6 text-lg leading-8">It's important to have your pavers pressure washed before putting on a seal. If you skip this cleaning process any dirt or stains will remain sealed leaving in unwanted residue on your hardscape surface. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​Also if your landscape pavers have been sealed in the past you may need to strip the old sealer before applying the new sealer. This can be done by applying water pressure to the old sealer to make sure all the residue is removed. </p>
+      <p className="mt-6 text-lg leading-8">By getting your landscape pavers & tiles pressure washed can remove dirt, grime and residue and make them look new again. These hardscape areas make a huge impact on curb appeal and can increase the value of your property.  </p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Pre-Seal Cleaning is Essential </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">It's important to have your pavers pressure washed before applying a seal. Skipping this crucial cleaning step can trap dirt and stains under the sealer, leaving unwanted residue on your hardscape surface. A thorough cleaning ensures a pristine and smooth finish, enhancing the overall look of your landscape pavers.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Removing Old Sealer is Necessary for a Fresh Look</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">If your landscape pavers have been sealed in the past, stripping the old sealer is essential before applying a new one. This can be effectively done using water pressure to ensure all residue is removed. This step is crucial to achieve a fresh and clean surface that will properly bond with the new sealer.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Professional Pressure Washing Rejuvenates Hardscapes</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">By getting your landscape pavers and tiles professionally pressure washed, you can remove accumulated dirt, grime, and residue, making them look new again. This rejuvenation not only improves the appearance of your hardscapes but also enhances their longevity and durability, providing long-term benefits for your property.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Enhancing Curb Appeal and Property Value</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Clean and well-maintained hardscape areas, such as landscape pavers and tiles, make a significant impact on your property's curb appeal. This improved appearance can increase the value of your property, making it more attractive to potential buyers. Investing in professional pressure washing services is a smart move for boosting your home's marketability and overall appeal. </dd>
         </div>
       </dl>
     </div>

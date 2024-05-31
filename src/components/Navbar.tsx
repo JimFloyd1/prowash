@@ -52,7 +52,7 @@ const Navbar = () => {
       <li>
         <details>
           <summary>
-            <a href="/residential-softwash">House SoftWash
+            <a href="/residential-softwash">House Soft Wash
             </a>
             </summary>
           <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
@@ -61,12 +61,12 @@ const Navbar = () => {
           <li><a href="/services/patio-softwash">Patio & Deck Cleaning</a></li>
           <li><a href="/services/driveway-pressure-washing">Driveway Pressure Washing</a></li>
           <li><a href="/services/paver-tile-cleaning">Paver and Tile Cleaning</a></li>
-          <li><a href="/services/residential-softwash">Residential Softwash</a></li>
+          <li><a href="/services/residential-softwash">Residential Soft Wash</a></li>
           <li><a href="/services/rust-removal">Rust Removal</a></li>
-          <li><a href="/services/rv-softwash">RV Softwash</a></li>
+          <li><a href="/services/rv-softwash">RV Soft Wash</a></li>
           <li><a href="/services/stucco-surface-cleaning">Stucco Surface Cleaning</a></li>
           <li><a href="/services/trash-bin-cleaning">Trash Bin Cleaning</a></li>
-          <li><a href="/services/vinyl-softwash">Vinyal Softwash</a></li>
+          <li><a href="/services/vinyl-softwash">Vinyl Soft Wash</a></li>
           </ul>
         </details>
       </li>

@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Rust Removal</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Rust Stains from Brick, Concrete, & Vinyl</h2>
+      <p className="mt-6 text-lg leading-8">Brick, concrete, and vinyl sidings typically don't require much care, however rust stains inevitably occur which are most likely caused by air conditioning units or certain types of drainage pipes that are installed near these materials.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​Before the removal of rust, it's important to pressure wash the area to eliminate surface dirt that has built up. By doing this will make it easier for the rust stain to come out. </p>
+      <p className="mt-6 text-lg leading-8">Enhance property value by removing rust stains. Rust stains can significantly impact the aesthetics and perceived upkeep of your home, potentially lowering its resale value. By removing rust stains, you not only improve the look of your property but also address structural issues caused by rust. This proactive approach enhances your home's marketability and overall value.</p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Don't Use High Water Pressure</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Rust, if not cleaned routinely can spread and cause irreversible damage to your home. Cleaning rust off your home should be done with care as the material could have started to deteriorate and high water pressure should not be used on rust stains for this reason. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Hire an Expert at an Affordable Price</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">ProWash Pressure Washing uses gentle pressure and safe cleaning agents designed to eliminate rust stains. We have the knowledge, experience, and best methods to safely remove rust from brick, concrete, and vinyl sidings to make your property look like new again.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Plan on Selling Your Home This Year</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600"> Just as potential shoppers wouldn’t expect to pay very much for a dinged-up car, they wouldn’t expect to pay very much for a rusting building. Poor aesthetics can indicate poor upkeep in general. And with the structural problems that rust can cause, that impression would be correct. If you want to increase your building’s resale value, a great first step is to remove the rust. And with ProWash Pressure Washing you have an excellent specialist to rid your home of that rust and help make your property that much more valuable!</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,10 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Rust Can Cause Irreversible Damage If Not Removed QuicklyRust Can Cause Irreversible Damage If Not Removed Quickly</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Rust is more than just an eyesore. Rust will eat away at your walls, roof, or whatever it develops on. Over time, it will cause the structure to weaken and even break, a problem which could necessitate expensive repairs and even replacements of metal segments. </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">A rusting building is in no way safe, and you shouldn’t have to live in an unsafe place. If you detect any amount of rust on your metal building, don’t wait for it to develop into an expensive and dangerous problem. Schedule a rust removal just as soon as you see that you will need one! </dd>
         </div>
       </dl>
     </div>

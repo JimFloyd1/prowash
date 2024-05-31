@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Stucco Surface Cleaning</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Residential Stucco Surfaces</h2>
+      <p className="mt-6 text-lg leading-8">Stucco sidings are a beautiful and durable material that can enhance the curb appeal of any home. However this unique material has a textured surface that allows dirt and grime to easily settle into the crevices. ProWash Pressure Washing will help keep your stucco sidings in excellent condition.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​The most common stains on stucco siding are dirt, mold, mildew, and algae which can be removed using the proper equipment and tools. Stucco's unique design often makes it difficult to keep dirt off. This can cause damage to the home if not routinely cleaned. </p>
+      <p className="mt-6 text-lg leading-8">Stucco material is somewhat fragile and should be cleaned and pressure washed with care. High-pressure cleaning can cause damage to stucco, which is why ProWash Pressure Washing uses gentle pressure and cleaning agents that are specifically designed for stucco sidings. </p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Importance of regular cleaning for stucco surfaces</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Stucco sidings are a beautiful and durable material that can enhance the curb appeal of any home. However, this unique material has a textured surface that allows dirt and grime to easily settle into the crevices. Regular cleaning is essential to maintain its appearance and prevent long-term damage.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Common stains and their removal</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The most common stains on stucco siding are dirt, mold, mildew, and algae. These can be effectively removed using the proper equipment and tools. Stucco's unique design often makes it difficult to keep dirt off, but routine cleaning prevents these stains from causing damage to your home.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Expert stucco cleaning in Myrtle Beach</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">ProWash of the GrandStrand has been pressure washing stucco homes in Myrtle Beach and surrounding areas for years. With extensive knowledge and experience, we use the best methods to safely clean your home, delivering the results you want without compromising the integrity of your stucco sidings.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Gentle cleaning methods to protect stucco</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Stucco material is somewhat fragile and should be cleaned and pressure washed with care. High-pressure cleaning can cause damage to stucco, which is why ProWash Pressure Washing uses gentle pressure and cleaning agents specifically designed for stucco sidings. This approach ensures your stucco remains intact and looking great. </dd>
         </div>
       </dl>
     </div>

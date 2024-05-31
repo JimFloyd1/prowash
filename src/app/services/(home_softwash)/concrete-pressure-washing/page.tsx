@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Concrete and Brick Pressure Washing</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Brick and Concrete</h2>
+      <p className="mt-6 text-lg leading-8">Special attention should be noted when cleaning concrete or brick as high pressure can degrade or chip away at the surface. Especially if the concrete or brick structure has rust stains. Over time rust will erode concrete and brick causing part of the material to break off if cleaned with high water pressure.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​​This is why it's important to hire a professional pressure washing company with experience in cleaning brick and concrete. To safely clean concrete and brick hardscapes we use equipment designed especially for eliminating, dirt, grime and unwanted residue in a safe way as to not damage the underlying material.</p>
+      <p className="mt-6 text-lg leading-8">​​By having your brick and concrete hardscape clean of dirt, rust, and debris can impact the value of your property. If you plan to sell your home this year, having your home hardscapes pressure washed by a professional can greatly improve its curb appeal and increase the price buyers are willing to pay. The hardscape around a home can often make the greatest impact in a buyers judgment, so making a good impression is key to getting your property sold.</p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Professional Cleaning Prevents Long-Term Damage </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Regular professional cleaning not only enhances the appearance of your brick and concrete but also prevents long-term damage. Dirt, grime, and other residues can accumulate and become more difficult to remove over time, leading to potential deterioration. By investing in routine maintenance, you ensure the longevity and durability of your hardscapes.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Professional Expertise and Specialized Equipment</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Hiring a professional pressure washing company ensures that your brick and concrete are cleaned using the appropriate techniques and specialized equipment. Professionals understand the correct pressure settings and cleaning agents required to effectively clean without causing harm. This expertise is crucial for maintaining the integrity of your hardscapes.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3> Enhanced Property Aesthetics and Value</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Clean, well-maintained hardscapes significantly enhance the overall aesthetics of your property. A spotless driveway, patio, or walkway creates a welcoming and attractive environment, making your home stand out in the neighborhood. This improved visual appeal can positively impact the perceived value of your property.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>A cost-effective investment.</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Investing in professional pressure washing services is a cost-effective way to protect your property. Regular maintenance can prevent the need for costly repairs or replacements caused by neglect or improper cleaning methods. In the long run, this proactive approach saves you money and ensures your property remains in top condition. </dd>
         </div>
       </dl>
     </div>

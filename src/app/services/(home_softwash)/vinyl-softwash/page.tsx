@@ -13,15 +13,15 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Pressure Washing Vinyl Siding</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Vinyl Siding Cleaning</h2>
+      <p className="mt-6 text-lg leading-8">Vinyl siding are inexpensive and durable requiring very little maintenance. However these areas do get dirty from constantly being exposed to the elements. For example, mildew can take hold and spread faster in wet conditions and homes in certain locations such as near a dirt road or construction site can become dirty faster. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​Take a look at your vinyl sidings, what started out as white is now a shade of brown or green, it needs a good washing. Textured vinyl is more prone to collecting dirt while light-colored vinyl shows dirt easier.  </p>
+      <p className="mt-6 text-lg leading-8">The best way to prevent mold & mildew from growing on your vinyl siding is by having your home pressure washed on an annual basis. This will keep your property looking fresh and clean.</p>
     </div>
   </div>
   <Image
@@ -52,9 +52,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>The Key To Getting Your Property Sold</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">By eliminating dirt, grime, spider webs, bugs, mold and mildew on your vinyl sidings can impact the value of your property. If you plan to sell your home this year, having it pressure washed by a professional can greatly improve its curb appeal and increase the price buyers are willing to pay. Buyers don't want to purchase a dirty and grimy house, so making a good impression is key to getting your property sold. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +64,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Help Your Sinuses</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">This can be important for those with allergies. By having your home professionally pressure washed before or during flu season will eliminate the growth of mold and mildew that can irritate sinuses. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +76,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Hire An Expert </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">ProWash Pressure Washing is the local pressure washing expert within Myrtle Beach and surrounding areas. We take pride in our work and always strive to exceed your expectations. Our goal is your satisfaction and will work to make sure you are happy with our service. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +88,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>The Gentle Wash Method</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">​ProWash Pressure Washing uses gentle pressure and safe & environmentally friendly cleaning agents that will not harm plants or flowers. By eliminating dirt, mold & mildew from the underlying surface will rejuvenate and brighten your vinyl siding. </dd>
         </div>
       </dl>
     </div>

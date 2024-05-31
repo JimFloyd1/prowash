@@ -13,15 +13,26 @@ const page = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
 </svg>
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">House Soft Wash</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Residential Trash Bin Cleaning</h1>
 </div>
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Title H2</h2>
-      <p className="mt-6 text-lg leading-8">x</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​x</p>
-      <p className="mt-6 text-lg leading-8">x</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Residential Trash Bins</h2>
+      <p className="mt-6 text-lg leading-8">Trash bins are breeding grounds for germs and bacteria such as Weils, Salmonella, E.Coli and Listeria. Cleaning your trash bins with a hose just doesn’t cut it. Clean bins can prevent dangerous viruses and bacteria, and rodents from entering the home.</p>
+<br></br>
+      <h1 className="text-4xl font-bold mb-6">Our Trash Bin Service</h1>
+      <p className="mt-6 text-lg leading-8">​With the purchase of a house wash, we offer:</p>
+      <ul className="mb-4 list-disc list-inside  mt-2 text-base leading-7">
+        <li>We wash, and sanitize trash bins so you don’t have to.</li>
+        <li>We leave your trash bins squeaky clean.</li>
+        <li>We deodorize the bins so they smell brand-new.</li>
+        <li>We help deter those pesky undesirables.</li>
+        <li>We kill 99.9% of germs, fungi, and viruses.</li>
+        <li>We work with you to make scheduling and maintenance as simple as possible.</li>
+      </ul>
+
+      <p className="mt-6 text-lg leading-8">*Service in conjunction with residential pressure washing</p>
     </div>
   </div>
   <Image
@@ -52,9 +63,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>​The Gentle Wash Method </h3>
+            <h3>Importance of Professional Cleaning for Trash Bins</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Trash bins are breeding grounds for germs and bacteria such as Weils, Salmonella, E.Coli, and Listeria. Cleaning your trash bins with a hose just doesn’t cut it. Professional pressure washing services ensure thorough cleaning, significantly reducing the risk of dangerous viruses, bacteria, and rodents entering your home.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -64,9 +75,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>We Do Not Use High Power Pressure Washing on your House Sidings</h3>
+            <h3>Comprehensive Trash Bin Cleaning Service</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">With the purchase of a house wash, we offer a comprehensive trash bin cleaning service. We wash, sanitize, and maintain your trash bins, so you don’t have to. This service ensures your bins are not just clean but also free from harmful pathogens that can pose health risks.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -76,9 +87,9 @@ const page = () => {
             </svg>
             </div>
 
-            <h3>Improve the Appearance of your Home</h3>
+            <h3>Deodorization for a Fresh-Smelling Environment</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Our trash bin cleaning service goes beyond just cleaning; we deodorize the bins so they smell brand-new. This not only improves the hygiene of your home but also eliminates unpleasant odors, creating a more pleasant environment around your property.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -88,10 +99,9 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Walkways & Driveways give the First Impression</h3>
+            <h3>Simplified Scheduling and Maintenance</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">x </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">We understand the importance of convenience, which is why we work with you to make scheduling and maintenance as simple as possible. Our flexible scheduling options ensure that your trash bins are cleaned regularly, maintaining their cleanliness and preventing the build-up of germs, fungi, and viruses. </dd>
         </div>
       </dl>
     </div>

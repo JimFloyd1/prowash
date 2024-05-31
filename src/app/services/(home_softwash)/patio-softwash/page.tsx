@@ -16,12 +16,12 @@ const page = () => {
 </svg>
 
 </div>
-<h1 className="mt-2 text-xl font-bold tracking-tight ">Residential Pressure Washing</h1>
+<h1 className="mt-2 text-xl font-bold tracking-tight ">Pressure Washing the Patios and Decks </h1>
 </div>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing the Patios & Decks </h2>
+                <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">​Cleaner Residential Patios and Decks with Pressure Washing </h2>
                 <p className="mt-6 text-lg leading-8">Decks & Patios often serve as hangout areas for friends and family coming to visit. Overtime this area can become messy with old food stains, spilled drinks, bird droppings, dirt and debris build up. Pressure washing can easily make this area look brand-new again. In addition to cleaning the dirt and debris we will remove any tree sap, or unwanted stains to help give the best impression of your home. This is especially important if you are considering selling your property. </p>
                 <p className="mt-6 text-lg leading-8 mb-4">​Summer is often the best time to use a patio or deck, cooking burgers on the grill with family, entertaining friends or relaxing alone. However, all these activities can make your area look worn out, dull and dirty over time. To keep your patio or deck in its best shape you should have it pressure washed by a professional. </p>
                 <p className="mt-6 text-lg leading-8">Throughout the winter, your deck may not be used very often, however it can get grimy from mud, moisture, tree leaves and limbs that remain scattered across your patio over these months. This often leads to mold and mildew and can leave the area unappealing and nonfunctional. </p>
@@ -55,7 +55,7 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Myrtle Beach, SC Residential Pressure Washing </h3>
+            <h3>Residential Pressure Washing </h3>
           </dt>
           <dd className="mt-2 text-base leading-7 text-gray-600">By hiring a professional pressure washer with the right tools and experience to clean your patio or deck on a regular basis can increase the lifespan of your patio or deck by several years. If you{"'"}re considering selling your home this year, consider pressure washing your patio or deck to increase the value of your property. Studies have shown that outdoor living spaces that are appealing to buyers increase the value of the property. </dd>
         </div>
