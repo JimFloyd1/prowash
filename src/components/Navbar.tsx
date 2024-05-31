@@ -102,7 +102,6 @@ const Navbar = () => {
           <li><a href="/services/pool-decks-pressure-washing">Pool Decks Pressure Washing</a></li>
           <li><a href="/services/retirement-facilities-pressure-washing ">Retirement Facilities Pressure Washing</a></li>
           <li><a href="/services/town-home-pressure-washing">Town Home Pressure Washing</a></li>
-
           </ul>
         </details>
       </li>
