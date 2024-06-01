@@ -12,7 +12,7 @@ interface FormState {
   phone: number | " ";
 }
 
-const page: React.FC = () => {
+const page = () => {
   const [formState, setFormState] = useState<FormState>({
     name: " ",
     email: " ",
@@ -21,7 +21,8 @@ const page: React.FC = () => {
   });
 
 
-const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+const handleNameChange = (event: ChangeEvent<HTMLInputElement>) => {
+  const target = event.target as HTMLInputElement;
   const { name, value } = event.target
   setFormState({
     ...formState,
@@ -29,29 +30,28 @@ const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
   });
 };
 
-const handlePhoneChange = (event: React.ChangeEvent<HTMLInputElement>)=>{
-  setPhone(Number(event.target.value));
-}
+// const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+// const target = event.target as HTMLInputElement;
+//   const {email, value } = event.target
+//   setFormState({
+//     ...formState,
+//     [email]: email === 'phone' ? (value === ''?'': Number(value)): value,
+//   });
+// };
+
 
 useEffect(() => {
   console.log('name value changed', formState)
 },
 [formState]
-
 );
-
-useEffect(() => {
-  console.log('phone number changed:', phone)
-}
-)
 
 
   return (
-    <div>
+<div>
 
-      <div className="overflow-hidden py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-
+<div className="overflow-hidden py-24 sm:py-32">
+<div className="mx-auto max-w-7xl px-6 lg:px-8">
 <div className="flex items-center space-x-4">
   <div className="flex-shrink-0 h-10 w-10 flex items-center justify-center rounded-lg bg-indigo-600 text-white">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
@@ -174,7 +174,6 @@ useEffect(() => {
                     <input
                       type="text"
                       value={formState.name}
-                      // onChange={event => setName(event.target.value)}
                       onChange={handleNameChange}
                       name="name"
                       id="name"
@@ -183,7 +182,6 @@ useEffect(() => {
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
                     />
-                    <p className="text-black"> Hello: {}</p>
                   </div>
 
                   <div>
@@ -191,13 +189,13 @@ useEffect(() => {
                       Phone
                     </label>
                     <input
-                      type="tel"
+                      type="text"
                       // value={phone.inputNumber}
                       // onChange={event => setName(event.target.value)}
                       // onChange={handleChange}
                       name="phone"
                       id="phone"
-                      autoComplete="phone"
+                      autoComplete="tel"
                       placeholder='(555) 555-5555'
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
@@ -210,8 +208,8 @@ useEffect(() => {
                     </label>
                     <input
                       type="email"
-                      // value={email}
-                      // onChange={event => setName(event.target.value)}
+                      value={formState.email}
+                      onChange={handleNameChange}
                       name="email"
                       id="email"
                       autoComplete="email"
@@ -227,8 +225,8 @@ useEffect(() => {
                     </label>
                     <input
                       type="address"
-                      // value={address}
-                      // onChange={event => setName(event.target.value)}
+                      value={formState.address}
+                      onChange={handleNameChange}
                       name="address"
                       id="address"
                       autoComplete="address"
