@@ -19,8 +19,8 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Concrete </h2>
-      <p className="mt-6 text-lg leading-8">Concrete surfaces are found all over commercial property and can make a huge impression on customers. Due to the flow of foot traffic and vehicles, these surfaces typically become dirty fast and it's important to keep this area maintained.</p>
-      <p className="mt-6 text-lg leading-8 mb-4">Curb Appeal - The cleanliness of your concrete surfaces is often customers' first impression about your business since concrete takes up a significant portion of your business.</p>
+      <p className="mt-6 text-lg leading-8">Concrete surfaces are found all over commercial property and can make a huge impression on customers. Due to the flow of foot traffic and vehicles, these surfaces typically become dirty fast and it{"'"}s important to keep this area maintained.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">Curb Appeal - The cleanliness of your concrete surfaces is often customers{"'"} first impression about your business since concrete takes up a significant portion of your business.</p>
       <p className="mt-6 text-lg leading-8">ProWash of the GrandStrand is committed to cleaning all hardscapes including: walkways, sidewalks, entryways, retaining walls, parking lots, parking garages, dumpster pads, drive-thrus, loading docks, and more. </p>
     </div>
   </div>
@@ -69,7 +69,7 @@ const page = () => {
 
             <h3>Enhance curb appeal with clean concrete</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">The cleanliness of your concrete surfaces is often customers' first impression of your business, as concrete takes up a significant portion of your property. Clean, well-maintained concrete areas enhance curb appeal and reflect positively on your business, making it more attractive to potential customers.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The cleanliness of your concrete surfaces is often customers{"'"} first impression of your business, as concrete takes up a significant portion of your property. Clean, well-maintained concrete areas enhance curb appeal and reflect positively on your business, making it more attractive to potential customers.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

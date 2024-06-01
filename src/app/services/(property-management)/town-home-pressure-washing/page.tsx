@@ -21,7 +21,7 @@ const page = () => {
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Townhouse & Condo Communities </h2>
       <p className="mt-6 text-lg leading-8">If you are a property manager or rent & sell townhomes in your complex it is important to create a good first impression to a potential renter or buyer. </p>
       <p className="mt-6 text-lg leading-8 mb-4">Imagine you were looking for a place to live and driving by a townhome community where the signs were dirty, buildings had stains and exterior walls were growing mold & mildew. Chances are you would choose not to live in that community. </p>
-      <p className="mt-6 text-lg leading-8">Residents and potential tenants desire to live in a place they feel proud of and as a property manager you should be able to market the property as "the place to live." It should be clean, well-kept and inviting. </p>
+      <p className="mt-6 text-lg leading-8">Residents and potential tenants desire to live in a place they feel proud of and as a property manager you should be able to market the property as {'"'}the place to live.{'"'} It should be clean, well-kept and inviting. </p>
       <p className="mt-6 text-lg leading-8">ProWash Pressure Washing offers pressure washing services that will make your townhome communities stand out in a positive way.</p>
     </div>
   </div>
@@ -79,7 +79,7 @@ const page = () => {
 
             <h3>Offer a place residents can feel proud of</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Boost Resident Pride - Residents and potential tenants want to live in a community they can be proud of. As a property manager, you should be able to market your property as "the place to live." ProWash Pressure Washing ensures your townhome communities are clean, well-kept, and inviting, making current residents happy and attracting new tenants.​</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Boost Resident Pride - Residents and potential tenants want to live in a community they can be proud of. As a property manager, you should be able to market your property as {'"'}the place to live.{'"'} ProWash Pressure Washing ensures your townhome communities are clean, well-kept, and inviting, making current residents happy and attracting new tenants.​</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

@@ -21,7 +21,7 @@ const page = () => {
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Driveways are Critical to the Aesthetics of your Property</h2>
       <p className="mt-6 text-lg leading-8">​Your driveway often lays the groundwork for your property{"'"}s first impression.  Whether you{"'"}re trying to sell your home or impress the in-law{"'"}s driveways can impact the aesthetics of your home greatly.</p>
       <p className="mt-6 text-lg leading-8 mb-4">​Concrete surface has a way of becoming dirty fast and it takes up a significant portion of your properties surface area and its important to keep your driveway maintained.  </p>
-      <p className="mt-6 text-lg leading-8">Increase your home’s curb appeal without spending $10,000 for a brand new driveway.</p>
+      <p className="mt-6 text-lg leading-8">Increase your home{"’"}s curb appeal without spending $10,000 for a brand new driveway.</p>
       <p className="mt-6 text-lg leading-8">Feel good about pulling up to a clean and fresh driveway instead of one that{"'"}s old and worn out.</p>
       <p className="mt-6 text-lg leading-8">Remove the mildew, grime, alge, dirt and stains that over time damage your driveway.</p>
     </div>
