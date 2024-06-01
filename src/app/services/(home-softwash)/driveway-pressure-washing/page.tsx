@@ -19,10 +19,10 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Driveways are Critical to the Aesthetics of your Property</h2>
-      <p className="mt-6 text-lg leading-8">​Your driveway often lays the groundwork for your property's first impression.  Whether you're trying to sell your home or impress the in-law's driveways can impact the aesthetics of your home greatly.</p>
+      <p className="mt-6 text-lg leading-8">​Your driveway often lays the groundwork for your property{"'"}s first impression.  Whether you{"'"}re trying to sell your home or impress the in-law{"'"}s driveways can impact the aesthetics of your home greatly.</p>
       <p className="mt-6 text-lg leading-8 mb-4">​Concrete surface has a way of becoming dirty fast and it takes up a significant portion of your properties surface area and its important to keep your driveway maintained.  </p>
-      <p className="mt-6 text-lg leading-8">Increase your home{"’"}s curb appeal without spending $10,000 for a brand new driveway.</p>
-      <p className="mt-6 text-lg leading-8">Feel good about pulling up to a clean and fresh driveway instead of one that's old and worn out.</p>
+      <p className="mt-6 text-lg leading-8">Increase your home’s curb appeal without spending $10,000 for a brand new driveway.</p>
+      <p className="mt-6 text-lg leading-8">Feel good about pulling up to a clean and fresh driveway instead of one that{"'"}s old and worn out.</p>
       <p className="mt-6 text-lg leading-8">Remove the mildew, grime, alge, dirt and stains that over time damage your driveway.</p>
     </div>
   </div>
@@ -56,7 +56,7 @@ const page = () => {
 
             <h3>Driveways Create a Strong First Impression </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Your driveway often lays the groundwork for your property's first impression. Whether you're trying to sell your home or impress the in-laws, a clean and well-maintained driveway can significantly impact the aesthetics of your home, creating a positive and welcoming first impression.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Your driveway often lays the groundwork for your property{"'"}s first impression. Whether you{"'"}re trying to sell your home or impress the in-laws, a clean and well-maintained driveway can significantly impact the aesthetics of your home, creating a positive and welcoming first impression.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -68,7 +68,7 @@ const page = () => {
 
             <h3>Regular Maintenance Prevents Damage and Deterioration</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Concrete surfaces tend to become dirty quickly and cover a significant portion of your property's surface area. Regular maintenance is essential to keep your driveway looking fresh and clean. Removing mildew, grime, algae, dirt, and stains helps prevent long-term damage and deterioration, ensuring your driveway remains in good condition.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Concrete surfaces tend to become dirty quickly and cover a significant portion of your property{"'"}s surface area. Regular maintenance is essential to keep your driveway looking fresh and clean. Removing mildew, grime, algae, dirt, and stains helps prevent long-term damage and deterioration, ensuring your driveway remains in good condition.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -80,7 +80,7 @@ const page = () => {
 
             <h3>Enhance Curb Appeal Cost-Effectively</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Increase your home's curb appeal without the hefty price tag of a brand new driveway. Professional pressure washing is a cost-effective way to revitalize your driveway, making it look almost new without spending thousands of dollars. This simple investment can make a significant difference in the overall appearance of your property.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Increase your home{"'"}s curb appeal without the hefty price tag of a brand new driveway. Professional pressure washing is a cost-effective way to revitalize your driveway, making it look almost new without spending thousands of dollars. This simple investment can make a significant difference in the overall appearance of your property.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -92,7 +92,7 @@ const page = () => {
 
             <h3>Enjoy the Satisfaction of a Clean Driveway</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Feel good about pulling up to a clean and fresh driveway instead of one that's old and worn out. A well-maintained driveway not only improves the look of your home but also gives you a sense of pride and satisfaction every time you come home. It's a small but impactful way to enhance your daily living experience. </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Feel good about pulling up to a clean and fresh driveway instead of one that{"'"}s old and worn out. A well-maintained driveway not only improves the look of your home but also gives you a sense of pride and satisfaction every time you come home. It{"'"}s a small but impactful way to enhance your daily living experience. </dd>
         </div>
       </dl>
     </div>

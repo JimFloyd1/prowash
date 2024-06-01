@@ -20,7 +20,7 @@ const page = () => {
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Loading Dock Cleaning </h2>
       <p className="mt-6 text-lg leading-8">A loading dock is often an important part of a business. Moving packages in and out of the establishment allows companies to offer a variety of products that could increase revenue. However, due to the constant foot traffic, these areas often get dirty very fast and can cause the area to become slippery due to the dirt that goes through. </p>
-      <p className="mt-6 text-lg leading-8 mb-4">​This combination of dirt and grime can create dangerous conditions for employees who are moving heavy packages between this area. This is why it's important to keep loading docks clean at all times and will also help employees stay safe at all times.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​This combination of dirt and grime can create dangerous conditions for employees who are moving heavy packages between this area. This is why it{"'"}s important to keep loading docks clean at all times and will also help employees stay safe at all times.</p>
       <p className="mt-6 text-lg leading-8">By keeping the loading dock pressure washed and clean you will not only give it a professional appearance but also add value to your business and this is very important when trying to attract and maintain customers. </p>
     </div>
   </div>
@@ -78,7 +78,7 @@ const page = () => {
 
             <h3>Enhancing professional appearance and business value</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Keeping your loading dock pressure washed and clean not only enhances its professional appearance but also adds value to your business. A well-maintained loading dock reflects positively on your company's image, making it more attractive to customers and clients. This attention to detail can help in attracting and retaining business.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Keeping your loading dock pressure washed and clean not only enhances its professional appearance but also adds value to your business. A well-maintained loading dock reflects positively on your company{"'"}s image, making it more attractive to customers and clients. This attention to detail can help in attracting and retaining business.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

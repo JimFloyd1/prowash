@@ -19,9 +19,9 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Rust Stains from Brick, Concrete, & Vinyl</h2>
-      <p className="mt-6 text-lg leading-8">Brick, concrete, and vinyl sidings typically don't require much care, however rust stains inevitably occur which are most likely caused by air conditioning units or certain types of drainage pipes that are installed near these materials.</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​Before the removal of rust, it's important to pressure wash the area to eliminate surface dirt that has built up. By doing this will make it easier for the rust stain to come out. </p>
-      <p className="mt-6 text-lg leading-8">Enhance property value by removing rust stains. Rust stains can significantly impact the aesthetics and perceived upkeep of your home, potentially lowering its resale value. By removing rust stains, you not only improve the look of your property but also address structural issues caused by rust. This proactive approach enhances your home's marketability and overall value.</p>
+      <p className="mt-6 text-lg leading-8">Brick, concrete, and vinyl sidings typically don{"'"}t require much care, however rust stains inevitably occur which are most likely caused by air conditioning units or certain types of drainage pipes that are installed near these materials.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">​Before the removal of rust, it{"'"}s important to pressure wash the area to eliminate surface dirt that has built up. By doing this will make it easier for the rust stain to come out. </p>
+      <p className="mt-6 text-lg leading-8">Enhance property value by removing rust stains. Rust stains can significantly impact the aesthetics and perceived upkeep of your home, potentially lowering its resale value. By removing rust stains, you not only improve the look of your property but also address structural issues caused by rust. This proactive approach enhances your home{"'"}s marketability and overall value.</p>
     </div>
   </div>
   <Image
@@ -52,7 +52,7 @@ const page = () => {
               </svg>
             </div>
 
-            <h3>Don't Use High Water Pressure</h3>
+            <h3>Don{"'"}t Use High Water Pressure</h3>
           </dt>
           <dd className="mt-2 text-base leading-7 text-gray-600">Rust, if not cleaned routinely can spread and cause irreversible damage to your home. Cleaning rust off your home should be done with care as the material could have started to deteriorate and high water pressure should not be used on rust stains for this reason. </dd>
         </div>

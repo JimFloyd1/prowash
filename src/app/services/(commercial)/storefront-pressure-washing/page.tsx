@@ -66,7 +66,7 @@ const page = () => {
 
             <h3>Flexible scheduling to minimize business disruption</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Scheduling - We understand you have a business to run, so we offer very flexible scheduling that won't disrupt the flow of foot traffic in your business. Our team works around your timing to ensure minimal impact on your operations, allowing you to maintain a smooth and efficient business environment.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Scheduling - We understand you have a business to run, so we offer very flexible scheduling that won{"'"}t disrupt the flow of foot traffic in your business. Our team works around your timing to ensure minimal impact on your operations, allowing you to maintain a smooth and efficient business environment.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

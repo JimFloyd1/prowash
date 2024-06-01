@@ -19,7 +19,7 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-Trash Bin Cleaning for HOA's</h2>
+Trash Bin Cleaning for HOA{"'"}s</h2>
       <p className="mt-6 text-lg leading-8">A clean and healthy neighborhood is paramount. Make a positive impact on your community, and avoid unwanted smells and eyesores. An eco-friendly solution to clean, sanitize, and maintain your trash bins.</p>
       <p className="mt-6 text-lg leading-8 mb-4">What do we do?</p>
       <ul className="list-disc list-inside  mt-2 text-base leading-7">
@@ -63,7 +63,7 @@ Trash Bin Cleaning for HOA's</h2>
 
             <h3>Ensure a clean and healthy neighborhood with trash bin cleaning</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Trash Bin Cleaning for HOA's - A clean and healthy neighborhood is paramount. Regular trash bin cleaning helps make a positive impact on your community by avoiding unwanted smells and eyesores. Our eco-friendly solution ensures that trash bins are thoroughly cleaned, sanitized, and maintained, promoting a healthier living environment for all residents.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Trash Bin Cleaning for HOA{"'"}s - A clean and healthy neighborhood is paramount. Regular trash bin cleaning helps make a positive impact on your community by avoiding unwanted smells and eyesores. Our eco-friendly solution ensures that trash bins are thoroughly cleaned, sanitized, and maintained, promoting a healthier living environment for all residents.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -87,7 +87,7 @@ Trash Bin Cleaning for HOA's</h2>
 
             <h3>Simplified scheduling and maintenance for convenience</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Convenient Scheduling and Maintenance - We work with you to make scheduling and maintenance as simple as possible. Our flexible approach ensures that trash bin cleaning fits seamlessly into your community's routine, minimizing disruption while maximizing the benefits of regular cleaning. This convenience makes it easy for HOA's to keep their neighborhoods clean and odor-free.​</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Convenient Scheduling and Maintenance - We work with you to make scheduling and maintenance as simple as possible. Our flexible approach ensures that trash bin cleaning fits seamlessly into your community{"'"}s routine, minimizing disruption while maximizing the benefits of regular cleaning. This convenience makes it easy for HOA{"'"}s to keep their neighborhoods clean and odor-free.​</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

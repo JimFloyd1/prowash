@@ -18,9 +18,9 @@ const page = () => {
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing RV's in Myrtle Beach, SC</h2>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing RV{"'"}s in Myrtle Beach, SC</h2>
       <p className="mt-6 text-lg leading-8">Families and individuals from around the United States often travel to Myrtle Beach, SC for its great climate, ocean breeze and relaxed lifestyle. Many travel in an RV allowing them greater flexibility and longer stays. </p>
-      <p className="mt-6 text-lg leading-8 mb-4">​However, due to the Myrtle Beach climate Recreational Vehicles can develop stains from mold, mildew, and dirt with black streaks along the sidings. Additionally, debris from storms will build-up and can attract pests when not tended. This is why it's important to properly maintain the exterior surfaces of your RV. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​However, due to the Myrtle Beach climate Recreational Vehicles can develop stains from mold, mildew, and dirt with black streaks along the sidings. Additionally, debris from storms will build-up and can attract pests when not tended. This is why it{"'"}s important to properly maintain the exterior surfaces of your RV. </p>
       <p className="mt-6 text-lg leading-8">We Service All RV parks in Myrtle Beach, SC Including - Ocean Lakes Campground, Lakewood Campground, Pirate Land, Briercliffe, KOA and More!</p>
     </div>
   </div>
@@ -54,7 +54,7 @@ const page = () => {
 
             <h3>We Clean it All</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">If your RV is not regularly or properly washed, oxidation and black streaks down the sidings can occur which may cause irreversible damage if not removed quickly. We will clean and remove oxidation, mold, mildew, dirt, debris, black streaks, bird droppings, and rust stains from your RV. We also provide a Roof Treatment that protects your rubber roof from sun damage. This will prevent the roof from drying, cracking and becoming fragile. We clean both Aluminum and Fiberglass RV's.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">If your RV is not regularly or properly washed, oxidation and black streaks down the sidings can occur which may cause irreversible damage if not removed quickly. We will clean and remove oxidation, mold, mildew, dirt, debris, black streaks, bird droppings, and rust stains from your RV. We also provide a Roof Treatment that protects your rubber roof from sun damage. This will prevent the roof from drying, cracking and becoming fragile. We clean both Aluminum and Fiberglass RV{"'"}s.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -66,7 +66,7 @@ const page = () => {
 
             <h3>Protect your investment </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Recreational Vehicles can last for years if taken care of. It's an investment that provides a safe a reliable method of travel for you and your family. If the exterior cleanliness is ignored the elements will erode the material and cause the RV to look dirty, dingy and unkept. In addition, If the exterior sidings and rubber roof is not properly taken care of it could potentially cost thousands of dollars to repair. The cheapest way to maintain the exterior of your RV is by having it pressure washed by a Professional.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Recreational Vehicles can last for years if taken care of. It{"'"}s an investment that provides a safe a reliable method of travel for you and your family. If the exterior cleanliness is ignored the elements will erode the material and cause the RV to look dirty, dingy and unkept. In addition, If the exterior sidings and rubber roof is not properly taken care of it could potentially cost thousands of dollars to repair. The cheapest way to maintain the exterior of your RV is by having it pressure washed by a Professional.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

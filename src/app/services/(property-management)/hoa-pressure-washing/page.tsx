@@ -22,7 +22,7 @@ const page = () => {
       <p className="mt-6 text-lg leading-8">Concrete Cleaning - Often HOA community areas are comprised of many concrete surfaces. From walkways to patios and pool decks, we offer pressure washing that will strip away dirt, grime, rust, chewing-gum, mold, mildew and more.</p>
       <p className="mt-6 text-lg leading-8 mb-4">​Pressure Washing - For an existing or prospective tenant every part of your property counts and maintenance matters. This is why ProWash Pressure Washing offers a full-service pressure washing solution including cleaning all concrete surfaces and exterior sidings. We use gentle pressure and safe & environmentally friendly cleaning solutions (safe for flowers, plants, and children) that will make your property shine. New and potential tenants will be impressed.</p>
       <p className="mt-6 text-lg leading-8">High-Quality Services - We have the experience, knowledge, and best equipment to clean your property. Our high-caliber service is unmatched within the Myrtle Beach area. </p>
-      <p className="mt-6 text-lg leading-8">Fair Prices - Our goal is not to drain our clients' pocket. We offer very fair prices that are priced competitively and deliver the best quality.  </p>
+      <p className="mt-6 text-lg leading-8">Fair Prices - Our goal is not to drain our clients{"'"} pocket. We offer very fair prices that are priced competitively and deliver the best quality.  </p>
       <p className="mt-6 text-lg leading-8">Always On Time - We show up on time and are always professional.</p>
     </div>
   </div>

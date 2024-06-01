@@ -20,7 +20,7 @@ const page = () => {
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Residential Stucco Surfaces</h2>
       <p className="mt-6 text-lg leading-8">Stucco sidings are a beautiful and durable material that can enhance the curb appeal of any home. However this unique material has a textured surface that allows dirt and grime to easily settle into the crevices. ProWash Pressure Washing will help keep your stucco sidings in excellent condition.</p>
-      <p className="mt-6 text-lg leading-8 mb-4">​The most common stains on stucco siding are dirt, mold, mildew, and algae which can be removed using the proper equipment and tools. Stucco's unique design often makes it difficult to keep dirt off. This can cause damage to the home if not routinely cleaned. </p>
+      <p className="mt-6 text-lg leading-8 mb-4">​The most common stains on stucco siding are dirt, mold, mildew, and algae which can be removed using the proper equipment and tools. Stucco{"'"}s unique design often makes it difficult to keep dirt off. This can cause damage to the home if not routinely cleaned. </p>
       <p className="mt-6 text-lg leading-8">Stucco material is somewhat fragile and should be cleaned and pressure washed with care. High-pressure cleaning can cause damage to stucco, which is why ProWash Pressure Washing uses gentle pressure and cleaning agents that are specifically designed for stucco sidings. </p>
     </div>
   </div>
@@ -66,7 +66,7 @@ const page = () => {
 
             <h3>Common stains and their removal</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">The most common stains on stucco siding are dirt, mold, mildew, and algae. These can be effectively removed using the proper equipment and tools. Stucco's unique design often makes it difficult to keep dirt off, but routine cleaning prevents these stains from causing damage to your home.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">The most common stains on stucco siding are dirt, mold, mildew, and algae. These can be effectively removed using the proper equipment and tools. Stucco{"'"}s unique design often makes it difficult to keep dirt off, but routine cleaning prevents these stains from causing damage to your home.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

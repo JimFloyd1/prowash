@@ -55,7 +55,7 @@ const page = () => {
 
             <h3>Create a positive first impression with clean townhome and condo communities</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure Washing Townhouse & Condo Communities - As a property manager or someone who rents and sells townhomes, it's crucial to create a good first impression for potential renters or buyers. A clean, well-maintained exterior can make your property more attractive and desirable, encouraging prospective tenants to choose your community as their new home.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure Washing Townhouse & Condo Communities - As a property manager or someone who rents and sells townhomes, it{"'"}s crucial to create a good first impression for potential renters or buyers. A clean, well-maintained exterior can make your property more attractive and desirable, encouraging prospective tenants to choose your community as their new home.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
@@ -67,7 +67,7 @@ const page = () => {
 
             <h3>Prevent property degradation and enhance marketability</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Prevent Property Degradation - Dirty signs, stained buildings, and exterior walls covered in mold and mildew can significantly detract from your property's appeal. Regular pressure washing helps prevent these issues, maintaining the property's appearance and enhancing its marketability. Clean properties attract more residents and increase overall satisfaction within the community.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Prevent Property Degradation - Dirty signs, stained buildings, and exterior walls covered in mold and mildew can significantly detract from your property{"'"}s appeal. Regular pressure washing helps prevent these issues, maintaining the property{"'"}s appearance and enhancing its marketability. Clean properties attract more residents and increase overall satisfaction within the community.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

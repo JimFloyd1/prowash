@@ -19,7 +19,7 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Apartment Complex Pressure Washing</h2>
-      <p className="mt-6 text-lg leading-8">The Best Pressure Washing Service - If you're a property manager, the concept of “multitasking” is familiar. Some of your biggest challenges are maintaining operating costs and increase curb appeal, while balancing the needs of current clients and trying to attract new tenants. </p>
+      <p className="mt-6 text-lg leading-8">The Best Pressure Washing Service - If you{"'"}re a property manager, the concept of “multitasking” is familiar. Some of your biggest challenges are maintaining operating costs and increase curb appeal, while balancing the needs of current clients and trying to attract new tenants. </p>
       <p className="mt-6 text-lg leading-8 mb-4">For an apartment complex, curb appeal is more than a fringe benefit - it’s a necessity. ProWash of the GrandStrand is your professional source for exterior Pressure Washing services that elevate your property.</p>
       <p className="mt-6 text-lg leading-8">​You’re aiming to impress with curb appeal… But you’re also trying to protect the quality of your property. That’s where ProWash of the GrandStrand can help. Every pressure washing cleaning service represents the best in the industry. With a commitment to excellence, we deliver.</p>
     </div>
@@ -99,8 +99,8 @@ const page = () => {
 
           <h3>Elevate curb appeal and protect property quality with professional pressure washing</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure Washing Apartment Buildings - If you're a property manager, maintaining operating costs and enhancing curb appeal while balancing the needs of current tenants and attracting new ones can be challenging. ProWash of the GrandStrand offers top-tier pressure washing services to elevate your property's appearance and protect its quality. </dd>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Our full-service solutions include breezeway cleaning, pool deck cleaning, and more, ensuring every part of your complex impresses both current and prospective tenants. We use gentle yet effective cleaning methods to remove mold, mildew, dirt, and other imperfections, enhancing your property's first impression. Additionally, our concrete cleaning services tackle dirt, grease, chewing gum, oil, and more, maintaining the pristine condition of walkways, parking lots, curbs, office entryways, pool decks, breezeways, and patios.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Pressure Washing Apartment Buildings - If you{"'"}re a property manager, maintaining operating costs and enhancing curb appeal while balancing the needs of current tenants and attracting new ones can be challenging. ProWash of the GrandStrand offers top-tier pressure washing services to elevate your property{"'"}s appearance and protect its quality. </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Our full-service solutions include breezeway cleaning, pool deck cleaning, and more, ensuring every part of your complex impresses both current and prospective tenants. We use gentle yet effective cleaning methods to remove mold, mildew, dirt, and other imperfections, enhancing your property{"'"}s first impression. Additionally, our concrete cleaning services tackle dirt, grease, chewing gum, oil, and more, maintaining the pristine condition of walkways, parking lots, curbs, office entryways, pool decks, breezeways, and patios.</dd>
 
 
         </div>

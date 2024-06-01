@@ -19,7 +19,7 @@ const page = () => {
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Pressure Washing Pool Decks</h2>
-      <p className="mt-6 text-lg leading-8">Throughout the summer months pool decks are used for BBQ's, birthday parties, and other forms of entertainment. However with high foot traffic this area can become dirty and grimy. </p>
+      <p className="mt-6 text-lg leading-8">Throughout the summer months pool decks are used for BBQ{"'"}s, birthday parties, and other forms of entertainment. However with high foot traffic this area can become dirty and grimy. </p>
       <p className="mt-6 text-lg leading-8 mb-4">Often pool decks are made of concrete, natural stone, brick, wood, or tile. Each material has a specific way to be cleaned that if not done properly can harm the underlying structure and damage the material. For example, with ceramic and stone tiles certain cleaning solutions should not be used. </p>
       <p className="mt-6 text-lg leading-8">ProWash Pressure Washing has the knowledge, experience, and best methods to clean any pool deck. We use gentle pressure and safe & environmentally friendly cleaning solutions that will remove any dirt, algae, mold, mildew, and unwanted residue.</p>
     </div>

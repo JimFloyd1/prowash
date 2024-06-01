@@ -54,7 +54,7 @@ const page = () => {
 
             <h3>The Key To Getting Your Property Sold</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">By eliminating dirt, grime, spider webs, bugs, mold and mildew on your vinyl sidings can impact the value of your property. If you plan to sell your home this year, having it pressure washed by a professional can greatly improve its curb appeal and increase the price buyers are willing to pay. Buyers don't want to purchase a dirty and grimy house, so making a good impression is key to getting your property sold. </dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">By eliminating dirt, grime, spider webs, bugs, mold and mildew on your vinyl sidings can impact the value of your property. If you plan to sell your home this year, having it pressure washed by a professional can greatly improve its curb appeal and increase the price buyers are willing to pay. Buyers don{"'"}t want to purchase a dirty and grimy house, so making a good impression is key to getting your property sold. </dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

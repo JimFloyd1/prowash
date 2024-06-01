@@ -18,10 +18,10 @@ const page = () => {
 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
   <div className="lg:pr-8 lg:pt-4">
     <div className="lg:max-w-lg">
-      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Drive-Thru's</h2>
-      <p className="mt-6 text-lg leading-8">Drive-thru lanes can increase the business's revenue, however, these areas are high traffic areas. The constant exposure to vehicles can cause drive-thrus to become dirty and grimy, making the area unattractive for customers. It is important for business managers and owners to keep this area clean of tire-marks, gum stains, dirt, mold, mildew, bird droppings, and unwanted stains. By keeping the drive-thru clean will demonstrate a professional business appearance leaving your establishment clean, sterilized, and hygienic for customers to gather and enjoy.</p>
-      <p className="mt-6 text-lg leading-8 mb-4">We work around your timing - We understand you must keep your business running, so we work around your schedule for minimal impact to your customers and employees. You have a business to run so we offer very flexible scheduling that won't disrupt the flow of foot traffic in your businesses.</p>
-      <p className="mt-6 text-lg leading-8">Your property is an investment - It's important to maintain your building. ProWash Pressure Washing invests in the best technology and equipment to get the job done.​</p>
+      <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Cleaning Drive-Thru{"'"}s</h2>
+      <p className="mt-6 text-lg leading-8">Drive-thru lanes can increase the business{"'"}s revenue, however, these areas are high traffic areas. The constant exposure to vehicles can cause drive-thrus to become dirty and grimy, making the area unattractive for customers. It is important for business managers and owners to keep this area clean of tire-marks, gum stains, dirt, mold, mildew, bird droppings, and unwanted stains. By keeping the drive-thru clean will demonstrate a professional business appearance leaving your establishment clean, sterilized, and hygienic for customers to gather and enjoy.</p>
+      <p className="mt-6 text-lg leading-8 mb-4">We work around your timing - We understand you must keep your business running, so we work around your schedule for minimal impact to your customers and employees. You have a business to run so we offer very flexible scheduling that won{"'"}t disrupt the flow of foot traffic in your businesses.</p>
+      <p className="mt-6 text-lg leading-8">Your property is an investment - It{"'"}s important to maintain your building. ProWash Pressure Washing invests in the best technology and equipment to get the job done.​</p>
     </div>
   </div>
   <Image
@@ -54,7 +54,7 @@ const page = () => {
 
             <h3>Importance of maintaining clean drive-thru lanes </h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Drive-thru lanes can significantly increase a business's revenue, but these high-traffic areas are prone to becoming dirty and grimy due to constant vehicle exposure. Keeping the drive-thru clean of tire marks, gum stains, dirt, mold, mildew, bird droppings, and unwanted stains is crucial for maintaining an attractive and professional business appearance.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Drive-thru lanes can significantly increase a business{"'"}s revenue, but these high-traffic areas are prone to becoming dirty and grimy due to constant vehicle exposure. Keeping the drive-thru clean of tire marks, gum stains, dirt, mold, mildew, bird droppings, and unwanted stains is crucial for maintaining an attractive and professional business appearance.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">

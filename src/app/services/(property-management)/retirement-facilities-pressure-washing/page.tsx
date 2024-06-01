@@ -53,7 +53,7 @@ const page = () => {
 
             <h3>Enhance curb appeal to attract prospective tenants</h3>
           </dt>
-          <dd className="mt-2 text-base leading-7 text-gray-600">Attract Prospective Tenants - The appearance of your property significantly impacts prospective tenants' decisions. An unkempt exterior may deter them from choosing your facility. ProWash of the GrandStrand addresses the needs of assisted living and retirement facilities by cleaning sidewalks, external sidings, entrance ways, and walkways, eliminating dirt, mold, mildew, and unwanted debris.</dd>
+          <dd className="mt-2 text-base leading-7 text-gray-600">Attract Prospective Tenants - The appearance of your property significantly impacts prospective tenants{"'"} decisions. An unkempt exterior may deter them from choosing your facility. ProWash of the GrandStrand addresses the needs of assisted living and retirement facilities by cleaning sidewalks, external sidings, entrance ways, and walkways, eliminating dirt, mold, mildew, and unwanted debris.</dd>
         </div>
         <div className="relative pl-16">
           <dt className="text-base font-semibold leading-7 text-gray-900">
