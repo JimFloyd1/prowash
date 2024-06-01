@@ -1,8 +1,51 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
+import { useState, useEffect, ChangeEvent } from 'react'
 
 
-const page = () => {
+interface FormState {
+  name: string;
+  email: string;
+  address: string;
+  phone: number | " ";
+}
+
+const page: React.FC = () => {
+  const [formState, setFormState] = useState<FormState>({
+    name: " ",
+    email: " ",
+    address: " ",
+    phone: " ",
+  });
+
+
+const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const { name, value } = event.target
+  setFormState({
+    ...formState,
+    [name]: name === 'phone' ? (value === ''?'': Number(value)) : value,
+  });
+};
+
+const handlePhoneChange = (event: React.ChangeEvent<HTMLInputElement>)=>{
+  setPhone(Number(event.target.value));
+}
+
+useEffect(() => {
+  console.log('name value changed', formState)
+},
+[formState]
+
+);
+
+useEffect(() => {
+  console.log('phone number changed:', phone)
+}
+)
+
+
   return (
     <div>
 
@@ -130,12 +173,17 @@ const page = () => {
                     </label>
                     <input
                       type="text"
+                      value={formState.name}
+                      // onChange={event => setName(event.target.value)}
+                      onChange={handleNameChange}
                       name="name"
                       id="name"
                       autoComplete="name"
+                      placeholder='Your Name Here'
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
                     />
+                    <p className="text-black"> Hello: {}</p>
                   </div>
 
                   <div>
@@ -144,9 +192,13 @@ const page = () => {
                     </label>
                     <input
                       type="tel"
+                      // value={phone.inputNumber}
+                      // onChange={event => setName(event.target.value)}
+                      // onChange={handleChange}
                       name="phone"
                       id="phone"
                       autoComplete="phone"
+                      placeholder='(555) 555-5555'
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
                     />
@@ -158,9 +210,12 @@ const page = () => {
                     </label>
                     <input
                       type="email"
+                      // value={email}
+                      // onChange={event => setName(event.target.value)}
                       name="email"
                       id="email"
                       autoComplete="email"
+                      placeholder='Email@site.com'
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
                     />
@@ -172,9 +227,12 @@ const page = () => {
                     </label>
                     <input
                       type="address"
+                      // value={address}
+                      // onChange={event => setName(event.target.value)}
                       name="address"
                       id="address"
                       autoComplete="address"
+                      placeholder='Street Address, City, Zip'
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       required
                     />
@@ -185,6 +243,8 @@ const page = () => {
                       Message (optional)
                     </label>
                     <textarea
+                      // value={message}
+                      // onChange={event => setName(event.target.value)}
                       name="message"
                       id="message"
                       rows={4}
@@ -214,6 +274,6 @@ const page = () => {
 
     </div>
   )
-}
+};
 
 export default page
