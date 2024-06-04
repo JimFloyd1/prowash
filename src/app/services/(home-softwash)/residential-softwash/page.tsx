@@ -2,50 +2,62 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { useState, useEffect, ChangeEvent } from 'react'
+import { useState } from 'react'
 
 
-interface FormState {
+type FormState = {
   name: string;
   email: string;
   address: string;
-  phone: number | " ";
+  phone: string;
+  message: string;
 }
 
-const page = () => {
+const ContactForm: React.FC = () => {
   const [formState, setFormState] = useState<FormState>({
-    name: " ",
-    email: " ",
-    address: " ",
-    phone: " ",
+    name: '',
+    email: '',
+    address: '',
+    phone: '',
+    message: '',
   });
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormState(prevState => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
 
-const handleNameChange = (event: ChangeEvent<HTMLInputElement>) => {
-  const target = event.target as HTMLInputElement;
-  const { name, value } = event.target
-  setFormState({
-    ...formState,
-    [name]: name === 'phone' ? (value === ''?'': Number(value)) : value,
-  });
-};
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('/api/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formState),
+      });
 
-// const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-// const target = event.target as HTMLInputElement;
-//   const {email, value } = event.target
-//   setFormState({
-//     ...formState,
-//     [email]: email === 'phone' ? (value === ''?'': Number(value)): value,
-//   });
-// };
-
-
-useEffect(() => {
-  console.log('name value changed', formState)
-},
-[formState]
-);
-
+      if (response.ok) {
+        alert('Form submitted successfully');
+        setFormState({
+          name: '',
+          email: '',
+          address: '',
+          phone: '',
+          message: '',
+        });
+      } else {
+        alert('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred while submitting the form');
+    }
+  };
 
   return (
 <div>
@@ -146,7 +158,7 @@ useEffect(() => {
 
 
 {/* FORM */}
-<form>
+<form onSubmit={handleSubmit}>
 <div className="overflow-hidden ">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -174,7 +186,7 @@ useEffect(() => {
                     <input
                       type="text"
                       value={formState.name}
-                      onChange={handleNameChange}
+                      onChange={handleChange}
                       name="name"
                       id="name"
                       autoComplete="name"
@@ -190,9 +202,8 @@ useEffect(() => {
                     </label>
                     <input
                       type="text"
-                      // value={phone.inputNumber}
-                      // onChange={event => setName(event.target.value)}
-                      // onChange={handleChange}
+                      value={formState.phone}
+                      onChange={handleChange}
                       name="phone"
                       id="phone"
                       autoComplete="tel"
@@ -209,7 +220,7 @@ useEffect(() => {
                     <input
                       type="email"
                       value={formState.email}
-                      onChange={handleNameChange}
+                      onChange={handleChange}
                       name="email"
                       id="email"
                       autoComplete="email"
@@ -226,7 +237,7 @@ useEffect(() => {
                     <input
                       type="address"
                       value={formState.address}
-                      onChange={handleNameChange}
+                      onChange={handleChange}
                       name="address"
                       id="address"
                       autoComplete="address"
@@ -241,8 +252,8 @@ useEffect(() => {
                       Message (optional)
                     </label>
                     <textarea
-                      // value={message}
-                      // onChange={event => setName(event.target.value)}
+                      value={formState.message}
+                      onChange={handleChange}
                       name="message"
                       id="message"
                       rows={4}
@@ -272,6 +283,7 @@ useEffect(() => {
 
     </div>
   )
+
 };
 
-export default page
+export default ContactForm;
