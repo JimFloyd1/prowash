@@ -1,9 +1,20 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
+
+interface NavbarProps {}
+
+const Navbar: React.FC<NavbarProps> = () => {
+  const[openMenu, setOpenMenu] = useState<string | null>(null);
 
 
-const Navbar = () => {
+const handleMenuClick = (menu: string) => {
+    setOpenMenu(openMenu === menu ? null: menu);
+};
+
   return (
 
 <div className="navbar ">
@@ -29,8 +40,8 @@ const Navbar = () => {
         <li>
           <a>Services</a>
           <ul className="p-2 z-10">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a>Commercial Services</a></li>
+          <li><a href="/services/residential-softwash">House Washing</a></li>
+          <li><a href="/services/commercial-pressure-washing">Commercial Pressure Wash</a></li>
           <li><a>Property Managers</a></li>
       </ul>
       </li>
@@ -49,46 +60,97 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
 
+      <li className="relative">
+        <details onClick={() => handleMenuClick('menu1')} className="dropdown">
+          <summary>
+            <a href="/services/residential-softwash">House Washing
+            </a>
+            </summary>
+            {openMenu === 'menu1' && (
+          <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="/services/house-softwash">House Soft Wash</a></li>
+          <li><a href="/services/concrete-pressure-washing">Concrete Cleaning </a></li>
+          <li><a href="/services/patio-softwash">Patio & Deck Cleaning</a></li>
+          <li><a href="/services/driveway-pressure-washing">Driveway Pressure Washing</a></li>
+          <li><a href="/services/paver-tile-cleaning">Paver and Tile Cleaning</a></li>
+          <li><a href="/services/residential-softwash">Residential Soft Wash</a></li>
+          <li><a href="/services/rust-removal">Rust Removal</a></li>
+          <li><a href="/services/rv-softwash">RV Soft Wash</a></li>
+          <li><a href="/services/stucco-surface-cleaning">Stucco Surface Cleaning</a></li>
+          <li><a href="/services/trash-bin-cleaning">Trash Bin Cleaning</a></li>
+          <li><a href="/services/vinyl-softwash">Vinyl Soft Wash</a></li>
+          </ul>
+          )}
+        </details>
+      </li>
+
+{/* <ul className = "flex space-x-4"> */}
+  {/* <li className = "relative">
+    <button
+    onClick={() => handleMenuClick('menu1')}
+    className="text-white"
+    >
+      Menu 1
+    </button>
+    {openMenu === 'menu1' && (
+      <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg">
+      <li className="p-2 hover:bg-gray-200">Submenu1-1</li>
+      </ul>
+    )}
+  </li> */}
+
+  {/* <li className="relative">
+          <button
+            onClick={() => handleMenuClick('menu2')}
+            className="text-white"
+          >
+            Menu 2
+          </button>
+          {openMenu === 'menu2' && (
+            <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg">
+              <li className="p-2 hover:bg-gray-200">Submenu 2-1</li>
+              <li className="p-2 hover:bg-gray-200">Submenu 2-2</li>
+            </ul>
+          )}
+        </li> */}
+
+      <li className = 'relative'>
+        <details onClick={() => handleMenuClick('menu2')} className="dropdown">
+          <summary>
+          <a href="/services/commercial-pressure-washing">Commercial Pressure Wash
+            </a>
+          </summary>
+          {openMenu === 'menu2' && (
+          <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="/services/awning-pressure-washing">Awning Pressure Washing</a></li>
+          <li><a href="/services/commercial-pressure-washing">Commercial Pressure Washing</a></li>
+          <li><a href="/services/concrete-surface-pressure-washing">Concrete Surface Pressure Washing</a></li>
+          <li><a href="/services/drive-through-pressure-washing">Drive Through Pressure Washing</a></li>
+          <li><a href="/services/loading-dock-pressure-washing">Loading Dock Pressure Washing</a></li>
+          <li><a href="/services/post_construction_pressure-washing">Post Construction Pressure Washing</a></li>
+          <li><a href="/services/restaurant_pressure-washing">Restaurant Pressure Washing</a></li>
+          <li><a href="/services/shopping-centers-pressure-washing">Shopping Centers Pressure Washing</a></li>
+          <li><a href="/services/storefront-pressure-washing">Store Front Pressure Washing</a></li>
+          </ul>
+          )}
+        </details>
+      </li>
+
+
       <li>
         <details>
           <summary>
-            <a href="/residential">House SoftWash
-            </a>
+            <a href="/services/property-managers">Property Managers </a>
             </summary>
-          <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/services/house-softwash">House Washing</a></li>
-          <li><a href="/services/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/services/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
-          </ul>
-        </details>
-      </li>
-
-
-      <li>
-        <details>
-          <summary>Commercial Pressure Wash</summary>
-          <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
-          </ul>
-        </details>
-      </li>
-
-
-      <li>
-        <details>
-          <summary>Property Managers</summary>
-          <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="/house-washing">House Washing</a></li>
-          <li><a href="/concrete-cleaning">Concrete Cleaning </a></li>
-          <li><a href="/patio-cleaning">Patio & Deck Cleaning</a></li>
-          <li><a href="/commercial-services">Commercial Services</a></li>
-          <li><a href="/property-managers">Property Managers</a></li>
+          <ul tabIndex={0} className="hover:dropdown-content relative z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="/services/apartment-pressure-washing">Apartment Pressure Washing</a></li>
+          <li><a href="/services/government-building-pressure-washing">Government Building Pressure Washing</a></li>
+          <li><a href="/services/hoa-pressure-washing">HOA Pressure Washing</a></li>
+          <li><a href="/services/hoa-trash-bin-pressure-washing">HOA Trash Bin Pressure Washing</a></li>
+          <li><a href="/services/park-facilities-pressure-washing">Park Facilities Pressure Washing</a></li>
+          <li><a href="/services/pool-decks-pressure-washing">Pool Decks Pressure Washing</a></li>
+          <li><a href="/services/retirement-facilities-pressure-washing ">Retirement Facilities Pressure Washing</a></li>
+          <li><a href="/services/town-home-pressure-washing">Town Home Pressure Washing</a></li>
           </ul>
         </details>
       </li>
