@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 // import Navbar2 from "../components/Navbar2";
 
 
@@ -23,12 +24,12 @@ export default function RootLayout({
   children:React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="luxury">
+    <html lang="en" data-theme="cupcake">
       <body>
         <section className='py-10'>
           <div className='container'>
           <div>
-            <Navbar/>
+            <Header/>
             {children}
             <Footer />
           </div>
